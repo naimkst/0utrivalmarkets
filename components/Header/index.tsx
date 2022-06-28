@@ -23,7 +23,7 @@ export default function Header() {
             <ul className="flex justify-between items-center gap-16 md:gap-10">
               <li>
                 <a
-                  className="text-[24px] font-semibold hover:text-[#FF8B2D]"
+                  className="text-[24px] text-[#090D48] font-semibold hover:text-[#FF8B2D]"
                   href=""
                 >
                   Service
@@ -31,7 +31,7 @@ export default function Header() {
               </li>
               <li>
                 <a
-                  className="text-[24px] font-semibold hover:text-[#FF8B2D]"
+                  className="text-[24px] text-[#090D48] font-semibold hover:text-[#FF8B2D]"
                   href=""
                 >
                   Portfolio
@@ -39,7 +39,7 @@ export default function Header() {
               </li>
               <li>
                 <a
-                  className="text-[24px] font-semibold hover:text-[#FF8B2D]"
+                  className="text-[24px] text-[#090D48] font-semibold hover:text-[#FF8B2D]"
                   href=""
                 >
                   About
@@ -47,7 +47,7 @@ export default function Header() {
               </li>
               <li>
                 <a
-                  className="text-[24px] font-semibold hover:text-[#FF8B2D]"
+                  className="text-[24px] text-[#090D48] font-semibold hover:text-[#FF8B2D]"
                   href=""
                 >
                   Blog
@@ -57,7 +57,7 @@ export default function Header() {
           </div>
 
           <div>
-            <button className="buttonBg text-white py-[20px] px-[46px] rounded-[7px] text-[24px] font-bold bg-[linear-gradient(276.17deg, #F45356 0%, #FF9127 104.34%)] hidden md:block">
+            <button className="buttonBg text-white py-[20px] px-[46px] rounded-[7px] text-[24px] font-bold hidden md:block hover:bg-[#F45356]">
               Contact Us
             </button>
             <div onClick={() => mobileMenu()} className="md:hidden">

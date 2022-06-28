@@ -37,12 +37,6 @@ export default function HeroSection() {
             <div className="relative"
               data-aos="slide-left"
               data-aos-offset="200"
-              data-aos-delay="50"
-              data-aos-duration="1000"
-              data-aos-easing="ease-in-out"
-              data-aos-mirror="true"
-              data-aos-once="false"
-              data-aos-anchor-placement="top-center"
             >
               <Image className="z-10" src={heroImage} />
               <div className="bg-white inline-block py-4 px-6 rounded-[12px] absolute -left-24 top-[55%] z-0 hidden md:block">
