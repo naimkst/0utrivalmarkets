@@ -68,7 +68,7 @@ export default function Header() {
       </div>
       {isOpen && (
         <div className="relative">
-          <div className="md:hidden bg-black z-50 absolute w-full p-7">
+          <div className="md:hidden bg-[#090D48] z-50 absolute w-full p-7">
             <ul className="w-full">
               <li>
                 <a

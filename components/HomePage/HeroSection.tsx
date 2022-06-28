@@ -12,21 +12,21 @@ export default function HeroSection() {
   }, []);
   return (
     <>
-      <div className="heroSectionBg pt-[160px] -mt-[146px]">
+      <div className="heroSectionBg pt-[160px] -mt-[146px] px-4 md:px-0">
         <div className="container max-w-[1307px] m-auto">
-          <div className="grid grid-cols-2 gap-4 items-center justify-between">
+          <div className="grid grid-cols-1 gap-4 items-center justify-between md:grid-cols-2">
             <div>
               <div data-aos="slide-right relative">
-                <div className="absolute right-40 bottom-20" data-aos="flip-left"
+                <div className="absolute right-40 bottom-20 hidden md:block" data-aos="flip-left"
                   data-aos-duration="4000">
                   <Image src={heroArrow} />
                 </div>
-                <h1 className="text-[65px] leading-[75px] text-white font-extrabold" data-aos="slide-right">
+                <h1 className="text-[42px] md:text-[65px] leading-[50px] md:leading-[75px] text-white font-extrabold mt-7" data-aos="slide-right">
                   We are an <br /> e-commerce <br />
                   marketing agency
                 </h1>
                 <div
-                  className="absolute -left-36 bottom-20"
+                  className="absolute -left-36 bottom-20 hidden md:block"
                   data-aos="zoom-in-up"
                   data-aos-duration="4000"
                 >
@@ -45,7 +45,7 @@ export default function HeroSection() {
               data-aos-anchor-placement="top-center"
             >
               <Image className="z-10" src={heroImage} />
-              <div className="bg-white inline-block py-4 px-6 rounded-[12px] absolute -left-24 top-[55%] z-0">
+              <div className="bg-white inline-block py-4 px-6 rounded-[12px] absolute -left-24 top-[55%] z-0 hidden md:block">
                 <p className="text-[14px] font-bold">1000,000 Happy Clients</p>
                 <div>
                   <div className="flex items-center justify-start mt-2">
