@@ -20,7 +20,7 @@ export default function Header() {
             <Image src={logo} width={85} height={60} />
           </div>
           <div className="hidden md:block">
-            <ul className="flex justify-between items-center gap-16 ">
+            <ul className="flex justify-between items-center gap-16 md:gap-10">
               <li>
                 <a
                   className="text-[24px] font-semibold hover:text-[#FF8B2D]"

@@ -62,3 +62,6 @@ a {
   color: #FF8B2D;
   margin-bottom: 25px;
 }
+.heroSectionBg{
+  background: linear-gradient(106.38deg, #FF9127 18.11%, #F45356 52.23%, #090D48 104.85%);
+}
