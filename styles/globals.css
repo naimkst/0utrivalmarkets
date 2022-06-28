@@ -1,3 +1,38 @@
+
+@font-face {
+  font-family: 'Sofia Sans';
+  src: url('./fonts/SofiaSans-Regular.woff2') format('woff2'),
+      url('./fonts/SofiaSans-Regular.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Sofia Sans';
+  src: url('./fonts/SofiaSans-Bold.woff2') format('woff2'),
+      url('./fonts/SofiaSans-Bold.woff') format('woff');
+  font-weight: 700;
+  font-style: blod;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Sofia Sans';
+  src: url('./fonts/SofiaSans-ExtraBold.woff2') format('woff2'),
+      url('./fonts/SofiaSans-ExtraBold.woff') format('woff');
+  font-weight: 900;
+  font-style: extrabold;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Sofia Sans';
+  src: url('./fonts/SofiaSans-SemiBold.woff2') format('woff2'),
+      url('./fonts/SofiaSans-SemiBold.woff') format('woff');
+  font-weight: 600;
+  font-style: semibold;
+  font-display: swap;
+}
+
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -6,7 +41,7 @@ html,
 body {
   padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+  font-family:Sofia Sans, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 }
 
@@ -17,4 +52,13 @@ a {
 
 * {
   box-sizing: border-box;
+}
+.buttonBg {
+  background: linear-gradient(276.17deg, #F45356 0%, #FF9127 104.34%);
+}
+.h2Title{
+  font-size: 30px;
+  font-weight: 700;
+  color: #FF8B2D;
+  margin-bottom: 25px;
 }
