@@ -17,14 +17,20 @@ export default function HeroSection() {
           <div className="grid grid-cols-1 gap-4 items-center justify-between md:grid-cols-2">
             <div>
               <div data-aos="slide-right relative">
-                <div className="absolute right-40 bottom-20 hidden md:block" data-aos="flip-left"
-                  data-aos-duration="4000">
+                <div
+                  className="absolute right-40 bottom-20 hidden md:block"
+                  data-aos="flip-left"
+                  data-aos-duration="4000"
+                >
                   <Image src={heroArrow} />
                 </div>
-                <h1 className="text-[42px] md:text-[65px] leading-[50px] md:leading-[75px] text-white font-extrabold mt-7" data-aos="slide-right">
-                  We are an <br /> e-commerce <br />
-                  marketing agency
-                </h1>
+                <div data-aos="slide-right">
+                  <h1 className="bounce text-[42px] md:text-[65px] leading-[50px] md:leading-[75px] text-white font-extrabold mt-7">
+                    We are an <br /> e-commerce <br />
+                    marketing agency
+                  </h1>
+                </div>
+
                 <div
                   className="absolute -left-36 bottom-20 hidden md:block"
                   data-aos="zoom-in-up"
@@ -34,7 +40,8 @@ export default function HeroSection() {
                 </div>
               </div>
             </div>
-            <div className="relative"
+            <div
+              className="relative"
               data-aos="slide-left"
               data-aos-offset="200"
             >
@@ -44,7 +51,9 @@ export default function HeroSection() {
                 <div>
                   <div className="flex items-center justify-start mt-2">
                     <AiFillStar color="#FEBB43" />
-                    <p className="text-[12px] mx-2 text-[#000000] font-bold">4.9</p>
+                    <p className="text-[12px] mx-2 text-[#000000] font-bold">
+                      4.9
+                    </p>
                     <p className="text-[12px] text-[#8A898E]">(15K Reviews)</p>
                   </div>
                 </div>
