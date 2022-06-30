@@ -388,10 +388,14 @@ export default function SellerSection() {
             </div>
           </div>
 
-<div className="text-center justify-center mt-20">
-          <a className="buttonBg py-[25px] px-[80px] text-center items-center text-white text-[24px] font-bold rounded-[7px]" href="/">See all services</a>
-
-</div>
+          <div className="text-center justify-center mt-20">
+            <a
+              className="buttonBg py-[25px] px-[80px] text-center items-center text-white text-[24px] font-bold rounded-[7px]"
+              href="/"
+            >
+              See all services
+            </a>
+          </div>
         </div>
       </div>
     </>
