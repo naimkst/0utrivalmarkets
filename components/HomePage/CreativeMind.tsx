@@ -18,7 +18,7 @@ export default function CreativeMind() {
               <p className="sectionDescriptionBigLine">
                 Dont procrastinate! <br /> Feel free to reach out to us with
                 your questions comments concerns <br /> and anxieties (oh no, we
-                are not therapists, but if it's anything <br />
+                are not therapists, but if its anything <br />
                 marketing... We can surely help out!
               </p>
               <button className="bg-gradient-to-r from-[#FF9127] to-[#F45356] py-[18px] px-[45px] text-white font-bold text-[24px] rounded-[7px] mt-8 hover:from-[#F45356] hover:to-[#FF9127]">
