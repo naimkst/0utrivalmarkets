@@ -52,11 +52,10 @@ export default function SellerSection() {
                     management learn more here.
                   </p>
                   <div className="items-center justify-center flex invisible group-hover:visible mt-3">
-                    <Link
-                      className="mr-2 text-[#fff] text-[20px] font-semibold leading-[30px]"
-                      href="/"
-                    >
-                      See More{" "}
+                    <Link href="/">
+                      <a className="mr-2 text-[#fff] text-[20px] font-semibold leading-[30px]">
+                        See More{" "}
+                      </a>
                     </Link>
                     <BsArrowRight color="#fff" size={20} />
                   </div>
@@ -98,11 +97,10 @@ export default function SellerSection() {
                     it your mini websites on Amazon.
                   </p>
                   <div className="items-center justify-center flex invisible group-hover:visible mt-3">
-                    <Link
-                      className="mr-2 text-[#fff] text-[20px] font-semibold leading-[30px]"
-                      href="/"
-                    >
-                      See More{" "}
+                    <Link href="/">
+                      <a className="mr-2 text-[#fff] text-[20px] font-semibold leading-[30px]">
+                        See More{" "}
+                      </a>
                     </Link>
                     <BsArrowRight color="#fff" size={20} />
                   </div>
@@ -134,11 +132,10 @@ export default function SellerSection() {
                     on Amazon.
                   </p>
                   <div className="items-center justify-center flex invisible group-hover:visible mt-3">
-                    <Link
-                      className="mr-2 text-[#fff] text-[20px] font-semibold leading-[30px]"
-                      href="/"
-                    >
-                      See More{" "}
+                    <Link href="/">
+                      <a className="mr-2 text-[#fff] text-[20px] font-semibold leading-[30px]">
+                        See More{" "}
+                      </a>
                     </Link>
                     <BsArrowRight color="#fff" size={20} />
                   </div>
@@ -167,11 +164,10 @@ export default function SellerSection() {
                     and persuasive language.
                   </p>
                   <div className="items-center justify-center flex invisible group-hover:visible mt-3">
-                    <Link
-                      className="mr-2 text-[#fff] text-[20px] font-semibold leading-[30px]"
-                      href="/"
-                    >
-                      See More{" "}
+                    <Link href="/">
+                      <a className="mr-2 text-[#fff] text-[20px] font-semibold leading-[30px]">
+                        See More{" "}
+                      </a>
                     </Link>
                     <BsArrowRight color="#fff" size={20} />
                   </div>
@@ -215,11 +211,10 @@ export default function SellerSection() {
                     management learn more here.
                   </p>
                   <div className="items-center justify-center flex invisible group-hover:visible mt-3">
-                    <Link
-                      className="mr-2 text-[#fff] text-[20px] font-semibold leading-[30px]"
-                      href="/"
-                    >
-                      See More{" "}
+                    <Link href="/">
+                      <a className="mr-2 text-[#fff] text-[20px] font-semibold leading-[30px]">
+                        See More{" "}
+                      </a>
                     </Link>
                     <BsArrowRight color="#fff" size={20} />
                   </div>
@@ -252,11 +247,10 @@ export default function SellerSection() {
                     video.. sounds like fun?
                   </p>
                   <div className="items-center justify-center flex invisible group-hover:visible mt-3">
-                    <Link
-                      className="mr-2 text-[#fff] text-[20px] font-semibold leading-[30px]"
-                      href="/"
-                    >
-                      See More{" "}
+                    <Link href="/">
+                      <a className="mr-2 text-[#fff] text-[20px] font-semibold leading-[30px]">
+                        See More{" "}
+                      </a>
                     </Link>
                     <BsArrowRight color="#fff" size={20} />
                   </div>
@@ -292,11 +286,10 @@ export default function SellerSection() {
                     to sales!
                   </p>
                   <div className="items-center justify-center flex invisible group-hover:visible mt-3">
-                    <Link
-                      className="mr-2 text-[#fff] text-[20px] font-semibold leading-[30px]"
-                      href="/"
-                    >
-                      See More{" "}
+                    <Link href="/">
+                      <a className="mr-2 text-[#fff] text-[20px] font-semibold leading-[30px]">
+                        See More{" "}
+                      </a>
                     </Link>
                     <BsArrowRight color="#fff" size={20} />
                   </div>
@@ -329,12 +322,12 @@ export default function SellerSection() {
                     through the correct search terms
                   </p>
                   <div className="items-center justify-center flex invisible group-hover:visible mt-3">
-                    <Link
-                      className="mr-2 text-[#fff] text-[20px] font-semibold leading-[30px]"
-                      href="/"
-                    >
-                      See More{" "}
+                    <Link href="/">
+                      <a className="mr-2 text-[#fff] text-[20px] font-semibold leading-[30px]">
+                        See More{" "}
+                      </a>
                     </Link>
+
                     <BsArrowRight color="#fff" size={20} />
                   </div>
                 </div>
@@ -376,11 +369,10 @@ export default function SellerSection() {
                     Amazon to tap into many benefits.
                   </p>
                   <div className="items-center justify-center flex invisible group-hover:visible mt-3">
-                    <Link
-                      className="mr-2 text-[#fff] text-[20px] font-semibold leading-[30px]"
-                      href="/"
-                    >
-                      See More{" "}
+                    <Link href="/">
+                      <a className="mr-2 text-[#fff] text-[20px] font-semibold leading-[30px]">
+                        See More{" "}
+                      </a>
                     </Link>
                     <BsArrowRight color="#fff" size={20} />
                   </div>
@@ -390,11 +382,10 @@ export default function SellerSection() {
           </div>
 
           <div className="text-center justify-center mt-20">
-            <Link
-              className="buttonBg py-[25px] px-[80px] text-center items-center text-white text-[24px] font-bold rounded-[7px]"
-              href="/"
-            >
-              See all services
+            <Link href="/">
+              <a className="buttonBg py-[25px] px-[80px] text-center items-center text-white text-[24px] font-bold rounded-[7px]">
+                See all services
+              </a>
             </Link>
           </div>
         </div>

@@ -45,7 +45,9 @@ export default function WeOffer() {
         </div>
 
         <div className="mt-20 items-center text-center">
-          <Link className="buttonBg text-[24px] font-bold leading-[27px] text-white text-center py-[20px] px-[50px] rounded-[7px]" href="/">Find More</Link>
+          <Link href="/">
+          <a className="buttonBg text-[24px] font-bold leading-[27px] text-white text-center py-[20px] px-[50px] rounded-[7px]">Find More</a>
+          </Link>
         </div>
       </div>
     </>
