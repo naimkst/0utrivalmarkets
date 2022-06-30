@@ -9,6 +9,7 @@ import OurPortfolio from '../components/HomePage/OurPortfolio'
 import ProjectIdea from '../components/HomePage/ProjectIdea'
 import SellerSection from '../components/HomePage/SellerSection'
 import TestimonialSection from '../components/HomePage/TestimonialSection'
+import WeOffer from '../components/HomePage/WeOffer'
 import styles from '../styles/Home.module.css'
 
 const Home: NextPage = () => {
@@ -22,6 +23,7 @@ const Home: NextPage = () => {
       <SellerSection/>
       <OurPortfolio/>
       <ProjectIdea/>
+      <WeOffer/>
     </>
   )
 }
