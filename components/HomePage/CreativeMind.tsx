@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 import React from "react";
 import Breliant from "../../public/assets/images/Breliant.png";
 import mindLeft from "../../public/assets/images/mind-left.png";
@@ -15,7 +16,7 @@ export default function CreativeMind() {
                 will turn your idea into a brilliant reality...
               </h2>
               <p className="sectionDescriptionBigLine">
-                Don't procrastinate! <br /> Feel free to reach out to us with
+                Dont procrastinate! <br /> Feel free to reach out to us with
                 your questions comments concerns <br /> and anxieties (oh no, we
                 are not therapists, but if it's anything <br />
                 marketing... We can surely help out!
@@ -43,13 +44,13 @@ export default function CreativeMind() {
                 blocking our minds out of expansion....
               </h2>
               <p className="sectionDescriptionBigLine">
-                Hey, if you'd like continue on like that no worries... If you
+                Hey, if youd like continue on like that no worries... If you
                 agree that that is not the correct approach... Then why not
                 leave the nitty gritty to us?!
               </p>
-              <button className="bg-gradient-to-r from-[#FF9127] to-[#F45356] py-[18px] px-[45px] text-white font-bold text-[24px] rounded-[7px] mt-8 hover:from-[#F45356] hover:to-[#FF9127]">
+              <Link href="/" className="bg-gradient-to-r from-[#FF9127] to-[#F45356] py-[18px] px-[45px] text-white font-bold text-[24px] rounded-[7px] mt-8 hover:from-[#F45356] hover:to-[#FF9127]">
                 Send us a message
-              </button>
+              </Link>
             </div>
           </div>
         </div>

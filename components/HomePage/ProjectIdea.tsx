@@ -3,6 +3,7 @@ import React from "react";
 import projectIdea from "../../public/assets/images/project-idea.png";
 import projectDot from "../../public/assets/images/project-dot.png";
 import secrionTop from "../../public/assets/images/section-shape.png";
+import Link from "next/link";
 
 export default function ProjectIdea() {
   return (
@@ -22,12 +23,12 @@ export default function ProjectIdea() {
                 so that we get the best understanding of what your goal may be.
               </p>
               <div className="mt-12 relative z-10">
-                <a
+                <Link
                   className="buttonBg font-bold text-[24px] text-white py-[25px] px-[45px] rounded-[7px] mt-10"
                   href="/"
                 >
                   Lets get in touch
-                </a>
+                </Link>
                
               </div>
               <div className="absolute -left-[80px] -bottom-[130px] z-0">

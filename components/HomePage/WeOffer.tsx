@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 import React from "react";
 import WeOffer01 from "../../public/assets/images/weoffer01.png";
 import WeOffer02 from "../../public/assets/images/weoffer02.png";
@@ -44,7 +45,7 @@ export default function WeOffer() {
         </div>
 
         <div className="mt-20 items-center text-center">
-          <a className="buttonBg text-[24px] font-bold leading-[27px] text-white text-center py-[20px] px-[50px] rounded-[7px]" href="/">Find More</a>
+          <Link className="buttonBg text-[24px] font-bold leading-[27px] text-white text-center py-[20px] px-[50px] rounded-[7px]" href="/">Find More</Link>
         </div>
       </div>
     </>

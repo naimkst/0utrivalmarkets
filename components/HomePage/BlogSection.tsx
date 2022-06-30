@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 import React from "react";
 import Blog01 from "../../public/assets/images/blog01.png";
 import Blog02 from "../../public/assets/images/blog02.png";
@@ -38,9 +39,9 @@ export default function BlogSection() {
                     Donec fringlla est ametdis quam quam dictum vitae enim nulla
                     falis Donec quam fringilla Donec fringilla quam.
                   </p>
-                  <a className="text-[#EC615B] hover:text-[#303030] text-[18px] font-bold" href="/">
+                  <Link className="text-[#EC615B] hover:text-[#303030] text-[18px] font-bold" href="/">
                     Read More
-                  </a>
+                  </Link>
                 </div>
               </div>
               <div className="bg-[#FAFAFA] rounded-[7px] p-8 grid grid-cols-2 items-center justify-start gap-3">
@@ -58,16 +59,16 @@ export default function BlogSection() {
                     Donec fringlla est ametdis quam quam dictum vitae enim nulla
                     falis Donec quam fringilla Donec fringilla quam.
                   </p>
-                  <a className="text-[#EC615B] hover:text-[#303030] text-[18px] font-bold" href="/">
+                  <Link className="text-[#EC615B] hover:text-[#303030] text-[18px] font-bold" href="/">
                     Read More
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
           </div>
 
           <div className="mt-20 text-center">
-            <a className="bg-white py-[20px] px-[70px] text-[24px] text-[#FF8B2D] font-bold rounded-[7px] hover:bg-[#090D48] hover:text-white" href="">See More</a>
+            <Link className="bg-white py-[20px] px-[70px] text-[24px] text-[#FF8B2D] font-bold rounded-[7px] hover:bg-[#090D48] hover:text-white" href="">See More</Link>
           </div>
         </div>
       </div>

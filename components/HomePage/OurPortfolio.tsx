@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 import React from "react";
 import Portfolio from '../../public/assets/images/portfolio.png';
 
@@ -19,12 +20,12 @@ export default function OurPortfolio() {
                 so that we get the best understanding of what your goal may be.
               </p>
               <div className="mt-14 relative z-10">
-                <a
+                <Link
                   className="buttonBg font-bold text-[24px] text-white py-[20px] px-[50px] rounded-[7px] mt-10"
                   href="/"
                 >
                  See all
-                </a>
+                </Link>
               </div>
               
             </div>

@@ -87,7 +87,7 @@ export default function AboutSection() {
                     data-aos-easing="ease-in-sine"
                   >
                     Building a new brand and your just stuck with the name.. and
-                    that's all
+                    that is all
                   </li>
                   <li
                     className="text-[#303030] text-[20px] leading-[40px] font-medium"
