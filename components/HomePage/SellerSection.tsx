@@ -252,12 +252,12 @@ export default function SellerSection() {
                     video.. sounds like fun?
                   </p>
                   <div className="items-center justify-center flex invisible group-hover:visible mt-3">
-                    <a
+                    <Link
                       className="mr-2 text-[#fff] text-[20px] font-semibold leading-[30px]"
                       href="/"
                     >
                       See More{" "}
-                    </a>
+                    </Link>
                     <BsArrowRight color="#fff" size={20} />
                   </div>
                 </div>
