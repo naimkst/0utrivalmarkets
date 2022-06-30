@@ -39,8 +39,10 @@ export default function BlogSection() {
                     Donec fringlla est ametdis quam quam dictum vitae enim nulla
                     falis Donec quam fringilla Donec fringilla quam.
                   </p>
-                  <Link className="text-[#EC615B] hover:text-[#303030] text-[18px] font-bold" href="/">
+                  <Link href="/">
+                  <a className="text-[#EC615B] hover:text-[#303030] text-[18px] font-bold" >
                     Read More
+                  </a>
                   </Link>
                 </div>
               </div>
@@ -59,8 +61,10 @@ export default function BlogSection() {
                     Donec fringlla est ametdis quam quam dictum vitae enim nulla
                     falis Donec quam fringilla Donec fringilla quam.
                   </p>
-                  <Link className="text-[#EC615B] hover:text-[#303030] text-[18px] font-bold" href="/">
+                  <Link href="/">
+                  <a className="text-[#EC615B] hover:text-[#303030] text-[18px] font-bold" >
                     Read More
+                  </a>
                   </Link>
                 </div>
               </div>

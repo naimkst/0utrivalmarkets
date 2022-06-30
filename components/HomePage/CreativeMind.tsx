@@ -48,8 +48,10 @@ export default function CreativeMind() {
                 agree that that is not the correct approach... Then why not
                 leave the nitty gritty to us?!
               </p>
-              <Link href="/" className="bg-gradient-to-r from-[#FF9127] to-[#F45356] py-[18px] px-[45px] text-white font-bold text-[24px] rounded-[7px] mt-8 hover:from-[#F45356] hover:to-[#FF9127]">
+              <Link href="/">
+              <a className="bg-gradient-to-r from-[#FF9127] to-[#F45356] py-[18px] px-[45px] text-white font-bold text-[24px] rounded-[7px] mt-8 hover:from-[#F45356] hover:to-[#FF9127]">
                 Send us a message
+              </a>
               </Link>
             </div>
           </div>
