@@ -2,6 +2,7 @@ import Image from "next/image";
 import React from "react";
 import logo from "../../public/assets/images/logo.png";
 import { HiMenuAlt3 } from "react-icons/hi";
+import Link from "next/link";
 
 export default function Header() {
   const [isOpen, setIsOpen] = React.useState(false);
@@ -14,13 +15,16 @@ export default function Header() {
       <div className="container max-w-[1307px] m-auto">
         <div className="flex items-center justify-between pt-[8px] px-4">
           <div className="hidden md:block">
+            <Link href="/">
             <Image src={logo} width={173} height={131} />
+            </Link>
           </div>
           <div className="md:hidden">
-            <Image src={logo} width={85} height={60} />
+          <Link href="/"><Image src={logo} width={85} height={60} /></Link>
           </div>
           <div className="hidden md:block">
             <ul className="flex justify-between items-center gap-16 md:gap-10">
+              <Link href="/service">
               <li>
                 <a
                   className="text-[24px] text-[#090D48] font-semibold hover:text-[#FF8B2D]"
@@ -29,6 +33,9 @@ export default function Header() {
                   Service
                 </a>
               </li>
+              </Link>
+
+              <Link href="/portfolio">
               <li>
                 <a
                   className="text-[24px] text-[#090D48] font-semibold hover:text-[#FF8B2D]"
@@ -37,6 +44,9 @@ export default function Header() {
                   Portfolio
                 </a>
               </li>
+              </Link>
+
+              <Link href='/about'>
               <li>
                 <a
                   className="text-[24px] text-[#090D48] font-semibold hover:text-[#FF8B2D]"
@@ -45,6 +55,9 @@ export default function Header() {
                   About
                 </a>
               </li>
+              </Link>
+
+              <Link href='/blog'>
               <li>
                 <a
                   className="text-[24px] text-[#090D48] font-semibold hover:text-[#FF8B2D]"
@@ -53,6 +66,7 @@ export default function Header() {
                   Blog
                 </a>
               </li>
+              </Link>
             </ul>
           </div>
 

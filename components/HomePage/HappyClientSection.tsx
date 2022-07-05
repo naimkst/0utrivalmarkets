@@ -4,9 +4,7 @@ import CountUp, { useCountUp } from "react-countup";
 import VisibilitySensor from "react-visibility-sensor";
 
 export default function HappyClientSection() {
-  function onChange(isVisible: any) {
-    console.log("Element is now %s", isVisible ? "visible" : "hidden");
-  }
+
   return (
     <>
       <div className="pb-[150px]">
