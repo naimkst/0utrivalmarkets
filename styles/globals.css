@@ -83,6 +83,13 @@ a {
   font-weight: 600;
   line-height: 65px;
 }
+
+.sectionTitle35-35 {
+  font-size: 35px;
+  color: #090D48;
+  font-weight: 900;
+  line-height: 40px;
+}
 .sectionDescription {
   color: #303030;
   font-size: 22px;
@@ -93,6 +100,12 @@ a {
 .sectionDescription24-30 {
   color: #303030;
   font-size: 24px;
+  font-weight: 500;
+  line-height: 30px;
+}
+.sectionDescription22-30 {
+  color: #303030;
+  font-size: 22px;
   font-weight: 500;
   line-height: 30px;
 }
@@ -148,6 +161,9 @@ a {
 }
 .swiper-slide-next p {
   color: #fff;
+}
+.serviceBg{
+  background: linear-gradient(106.38deg, #FF9127 18.11%, #F45356 52.23%, #090D48 104.85%);
 }
 
 
