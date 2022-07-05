@@ -165,6 +165,9 @@ a {
 .serviceBg{
   background: linear-gradient(106.38deg, #FF9127 18.11%, #F45356 52.23%, #090D48 104.85%);
 }
+.pricingBoxShadow{
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
 
 
 
