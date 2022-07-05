@@ -62,11 +62,11 @@ export default function TestimonialSection() {
                 <div className="bg-[#FAFAFA] rounded-[10px] px-8 py-10 content-center text-center testimonialHover group hover:cursor-pointer ">
                   <Image
                     src={Testimonial}
-                    width={100}
-                    height={100}
+                    width={80}
+                    height={80}
                     className="rounded-[7px] object-cover"
                   />
-                  <p className="leading-[30px] text-[22px] text-[#303030] font-[500] my-5">
+                  <p className="leading-[25px] text-[18px] text-[#303030] font-[500] my-5">
                     Integer ac venenatis leo. Pellenutesque tincidunt lacus
                     sagittis ut magna tincidunt, at luctus est aliquam. Integer
                     ac venenatis leo.{" "}
@@ -84,11 +84,11 @@ export default function TestimonialSection() {
                 <div className="bg-[#FAFAFA] rounded-[10px] px-8 py-10 content-center text-center testimonialHover group hover:cursor-pointer ">
                   <Image
                     src={Testimonial}
-                    width={100}
-                    height={100}
+                    width={80}
+                    height={80}
                     className="rounded-[7px] object-cover"
                   />
-                  <p className="leading-[30px] text-[22px] text-[#303030] font-[500] my-5">
+                  <p className="leading-[25px] text-[18px] text-[#303030] font-[500] my-5">
                     Integer ac venenatis leo. Pellenutesque tincidunt lacus
                     sagittis ut magna tincidunt, at luctus est aliquam. Integer
                     ac venenatis leo.{" "}
@@ -106,11 +106,11 @@ export default function TestimonialSection() {
                 <div className="bg-[#FAFAFA] rounded-[10px] px-8 py-10 content-center text-center testimonialHover group hover:cursor-pointer ">
                   <Image
                     src={Testimonial}
-                    width={100}
-                    height={100}
+                    width={80}
+                    height={80}
                     className="rounded-[7px] object-cover"
                   />
-                  <p className="leading-[30px] text-[22px] text-[#303030] font-[500] my-5">
+                  <p className="leading-[25px] text-[18px] text-[#303030] font-[500] my-5">
                     Integer ac venenatis leo. Pellenutesque tincidunt lacus
                     sagittis ut magna tincidunt, at luctus est aliquam. Integer
                     ac venenatis leo.{" "}
@@ -127,11 +127,11 @@ export default function TestimonialSection() {
                 <div className="bg-[#FAFAFA] rounded-[10px] px-8 py-10 content-center text-center testimonialHover group hover:cursor-pointer ">
                   <Image
                     src={Testimonial}
-                    width={100}
-                    height={100}
+                    width={80}
+                    height={80}
                     className="rounded-[7px] object-cover"
                   />
-                  <p className="leading-[30px] text-[22px] text-[#303030] font-[500] my-5">
+                  <p className="leading-[25px] text-[18px] text-[#303030] font-[500] my-5">
                     Integer ac venenatis leo. Pellenutesque tincidunt lacus
                     sagittis ut magna tincidunt, at luctus est aliquam. Integer
                     ac venenatis leo.{" "}
