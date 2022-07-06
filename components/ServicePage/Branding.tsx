@@ -17,7 +17,7 @@ export default function Branding() {
               <p className="text-[22px] leading-[35px] text-[#303030] mb-3">
                 We are a team of Lorem Ipsum is simply dummy text of the
                 printing and typesetting industry. Lorem Ipsum has been the
-                industry's standard dummy text ever since the 1500s, when an
+                industrys standard dummy text ever since the 1500s, when an
                 unknown printer took a galley of type and scrambled it to make a
                 type specimen book. It has survived not only five centuries, but
                 also the leap into electronic typesetting, remaining essentially
@@ -28,7 +28,7 @@ export default function Branding() {
               <p className="text-[22px] leading-[35px] text-[#303030]">
                 We are a team of Lorem Ipsum is simply dummy text of the
                 printing and typesetting industry. Lorem Ipsum has been the
-                industry's standard dummy text ever since the 1500s,
+                industrys standard dummy text ever since the 1500s,
               </p>
             </div>
             <div>
