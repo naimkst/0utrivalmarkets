@@ -27,7 +27,7 @@ export default function Header() {
               <Link href="/service">
               <li>
                 <a
-                  className="text-[24px] text-[#090D48] font-semibold hover:text-[#FF8B2D]"
+                  className="text-[24px] text-[#090D48] font-semibold hover:text-white"
                   href=""
                 >
                   Service
@@ -38,7 +38,7 @@ export default function Header() {
               <Link href="/portfolio">
               <li>
                 <a
-                  className="text-[24px] text-[#090D48] font-semibold hover:text-[#FF8B2D]"
+                  className="text-[24px] text-[#090D48] font-semibold hover:text-white"
                   href=""
                 >
                   Portfolio
@@ -49,7 +49,7 @@ export default function Header() {
               <Link href='/about'>
               <li>
                 <a
-                  className="text-[24px] text-[#090D48] font-semibold hover:text-[#FF8B2D]"
+                  className="text-[24px] text-[#090D48] font-semibold hover:text-white"
                   href=""
                 >
                   About
@@ -60,7 +60,7 @@ export default function Header() {
               <Link href='/blog'>
               <li>
                 <a
-                  className="text-[24px] text-[#090D48] font-semibold hover:text-[#FF8B2D]"
+                  className="text-[24px] text-[#090D48] font-semibold hover:text-white"
                   href=""
                 >
                   Blog

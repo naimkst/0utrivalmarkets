@@ -11,7 +11,7 @@ import Seller06 from "../../public/assets/images/service/seller06.png";
 import Seller07 from "../../public/assets/images/service/seller07.png";
 import Seller08 from "../../public/assets/images/service/seller08.png";
 import Seller09 from "../../public/assets/images/service/seller09.png";
-import Seller010 from "../../public/assets/images/service/seller10.png";
+
 export default function AmazonSeller() {
   return (
     <>

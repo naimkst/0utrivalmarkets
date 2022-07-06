@@ -5,6 +5,10 @@ export default function PriceSection() {
     <>
       <div className="py-[90px]">
         <div className="max-w-[1307px] m-auto">
+          <div className="mb-10">
+            <h2 className="text-[50px] leading-[55px] font-bold text-[090D48] mb-3">Prefer to do a full Amazon <br/> Product </h2>
+            <p className="sectionDescription22-30">We create convincing and enticing product listings that will not <br/> just get you clicks, but rather sales!</p>
+          </div>
           <div className="grid grid-cols-4 gap-6 items-center">
             <div className="pricingBoxShadow rounded-[30px] py-9 group hover:bg-gradient-to-r from-[#FC6E36] to-[#E8505B]">
               <div className="bg-gradient-to-r from-[#FC6E36] to-[#E8505B] w-[80%] rounded-tr-[40px] rounded-br-[40px] text-center py-[20px] text-white text-[20px] font-bold group-hover:text-[#FC6E36] group-hover:bg-gradient-to-r group-hover:from-white group-hover:to-white">

@@ -86,7 +86,7 @@ a {
 
 .sectionTitle35-35 {
   font-size: 35px;
-  color: #090D48;
+  color: #090d48;
   font-weight: 900;
   line-height: 40px;
 }
@@ -162,14 +162,29 @@ a {
 .swiper-slide-next p {
   color: #fff;
 }
-.serviceBg{
-  background: linear-gradient(106.38deg, #FF9127 18.11%, #F45356 52.23%, #090D48 104.85%);
+.serviceBg {
+  background: linear-gradient(
+    106.38deg,
+    #ff9127 18.11%,
+    #f45356 52.23%,
+    #090d48 104.85%
+  );
 }
-.pricingBoxShadow{
+.pricingBoxShadow {
   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
-
-
+@layer utilities {
+  .brandHover {
+    background: linear-gradient(
+      144.53deg,
+      #ff4800 0%,
+      #e8505b 51.46%,
+      #090d48 100.81%
+    );
+    box-shadow: 0px 35px 60px rgba(206, 217, 228, 0.7);
+    cursor: pointer;
+  }
+}
 
 @media only screen and (max-width: 600px) {
   .swiper-button-prev:after {
