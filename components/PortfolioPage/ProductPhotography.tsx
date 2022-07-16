@@ -27,7 +27,7 @@ export default function ProductPhotography() {
             <h2 className="sectionTitle">Product photography </h2>
             <p className="sectionDescription22-30 my-3">
               Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum <br /> has been the industry's standard
+              industry. Lorem Ipsum <br /> has been the industrys standard
               dummy text ever since the 1500s
             </p>
           </div>
@@ -68,9 +68,9 @@ export default function ProductPhotography() {
                   <path
                     d="M8.75 13.125L17.5 21.875L26.25 13.125"
                     stroke="#090D48"
-                    stroke-width="2"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
+                    strokeWidth="2"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
                   />
                 </svg>
               </span>
