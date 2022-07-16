@@ -302,6 +302,55 @@ ul.react-tabs__tab-list .react-tabs__tab{
 }
 
 /* RC TABS STOP */
+ul.react-tabs__tab-list li {
+  border-bottom: 1px solid rgba(48, 48, 48, 0.18);
+  padding: 20px 20px 20px 20px;
+}
+ul.react-tabs__tab-list{
+  /* background: #F4F4F4; */
+  /* border: 1px solid rgba(48, 48, 48, 0.18); */
+  border-radius: 5px;
+  border-bottom: none;
+
+}
+.mySwiperProduct .swiper-button-prev:after {
+  content: url(/_next/static/media/right-arrow.d6626ab3.svg);
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translate(-50%, -50%);
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  transition: all 0.3s ease-in-out;
+  z-index: 2;
+  transform: rotate(180deg);
+}
+.mySwiperProduct .swiper-button-next:after {
+  content: url(/_next/static/media/right-arrow.d6626ab3.svg);
+  position: absolute;
+  top: 51%;
+  right: 0;
+  transform: translate(-50%, -50%);
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  transition: all 0.3s ease-in-out;
+  z-index: 2;
+}
+
+.mySwiperProduct span.swiper-pagination-bullet.swiper-pagination-bullet-active {
+  color: #FC6E36;
+  background: #FC6E36;
+  width: 15px;
+  height: 15px;
+}
+.mySwiperProduct span.swiper-pagination-bullet {
+  color: #FC6E36;
+  background: #FC6E36;
+  width: 15px;
+  height: 15px;
+}
 
 @keyframes bounce-in {
   /* 0% {
