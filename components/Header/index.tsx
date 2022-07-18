@@ -14,12 +14,12 @@ export default function Header() {
     <div>
       <div className="container max-w-[1307px] m-auto">
         <div className="flex items-center justify-between pt-[8px] px-4">
-          <div className="hidden md:block">
+          <div className="hidden md:block hover:cursor-pointer">
             <Link href="/">
             <Image src={logo} width={173} height={131} />
             </Link>
           </div>
-          <div className="md:hidden">
+          <div className="md:hidden hover:cursor-pointer">
           <Link href="/"><Image src={logo} width={85} height={60} /></Link>
           </div>
           <div className="hidden md:block">

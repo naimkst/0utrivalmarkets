@@ -1,21 +1,31 @@
 import React, { useEffect, useState } from "react";
 import Image from "next/image";
+import "react-image-lightbox/style.css";
+// @ts-ignore
+import ImgsViewer from "react-images-viewer";
 
 export default function ProductPhotography() {
-  const [images, setImages] = useState<any>();
+  const [IMG, setImages] = useState<any>([]);
   const [currentImage, setCurrentImage] = useState<number>(3);
   const [isOpen, setIsOpen] = useState<boolean>(false);
-  const [photoIndex, setPhotoIndex] = useState<any>(1);
+  const [photoIndex, setPhotoIndex] = useState<any>(0);
+  const [toggler, setToggler] = useState(false);
 
   const handleClick = () => {
     setCurrentImage(currentImage + 3);
   };
 
+  const onClickPrev = () => {
+    setPhotoIndex(photoIndex - 1);
+  };
+  const onClickNext = () => {
+    setPhotoIndex(photoIndex + 1);
+  };
+
   useEffect(() => {
     setImages(
       Array.from(Array(currentImage).keys()).map((id) => ({
-        id,
-        url: `https://picsum.photos/1000?random=${id}`,
+        src: `https://picsum.photos/1000?random=${id}`,
       }))
     );
   }, [currentImage]);
@@ -27,32 +37,42 @@ export default function ProductPhotography() {
             <h2 className="sectionTitle">Product photography </h2>
             <p className="sectionDescription22-30 my-3">
               Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum <br /> has been the industrys standard
-              dummy text ever since the 1500s
+              industry. Lorem Ipsum <br /> has been the industrys standard dummy
+              text ever since the 1500s
             </p>
           </div>
 
           <div className="mt-14">
             <div className="grid grid-cols-3 gap-8">
-              {images?.map((item: any, index: any) => (
+              {IMG?.map((item: any, index: any) => (
                 <div
                   key={index}
-                  className="relative w-full h-full rounded-[5px]"
+                  className="relative w-full h-full rounded-[5px] hover:cursor-pointer"
                   onClick={() => setIsOpen(true)}
                 >
                   <Image
-                    src={item.url}
+                    src={item.src}
                     width="100%"
                     height="100%"
                     layout="responsive"
                     objectFit="contain"
                     className="rounded-[5px]"
                   />
-
                 </div>
               ))}
             </div>
           </div>
+
+          <ImgsViewer
+            imgs={IMG}
+            currImg={photoIndex}
+            isOpen={isOpen}
+            showThumbnails={true}
+            onClickPrev={() => onClickPrev()}
+            onClickNext={() => onClickNext()}
+            onClose={() => setIsOpen(false)}
+            onClickThumbnail={(index: any) => setPhotoIndex(index)}
+          />
 
           <div className="mt-10" onClick={() => handleClick()}>
             <p className="flex items-center justify-center content-center text-center text-[24px] leading-[28px] font-bold hover:cursor-pointer">
