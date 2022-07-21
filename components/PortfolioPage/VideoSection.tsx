@@ -80,7 +80,7 @@ export default function VideoSection() {
                         <p className="text-[20px] leading-[30px] text-[#303030] mt-4">
                           Amazon Essentials is focused on creating affordable,
                           high-quality, and long-lasting everyday clothing you
-                          can rely on. Our line of women's apparel includes
+                          can rely on. Our line of womens apparel includes
                           cashmere sweaters, fleece and down jackets, and more,
                           including plus-size options. Our consistent sizing
                           takes the guesswork out of shopping, and each piece is
@@ -116,7 +116,7 @@ export default function VideoSection() {
                         <p className="text-[20px] leading-[30px] text-[#303030] mt-4">
                           Amazon Essentials is focused on creating affordable,
                           high-quality, and long-lasting everyday clothing you
-                          can rely on. Our line of women's apparel includes
+                          can rely on. Our line of womens apparel includes
                           cashmere sweaters, fleece and down jackets, and more,
                           including plus-size options. Our consistent sizing
                           takes the guesswork out of shopping, and each piece is
@@ -152,7 +152,7 @@ export default function VideoSection() {
                         <p className="text-[20px] leading-[30px] text-[#303030] mt-4">
                           Amazon Essentials is focused on creating affordable,
                           high-quality, and long-lasting everyday clothing you
-                          can rely on. Our line of women's apparel includes
+                          can rely on. Our line of womens apparel includes
                           cashmere sweaters, fleece and down jackets, and more,
                           including plus-size options. Our consistent sizing
                           takes the guesswork out of shopping, and each piece is

@@ -15,7 +15,7 @@ export default function EcommerceWebsite() {
           <div>
             <h2 className="sectionTitle">Product videography </h2>
             <p className="sectionDescription22-30 my-3">
-              Lorem Ipsum is simply dummy text of the printing and typesetting
+              Lorem Ipsum is simply dummy text of the printing and typesetting
               industry. Lorem Ipsum <br /> has been the industrys standard dummy
               text ever since the 1500s
             </p>
@@ -74,7 +74,7 @@ export default function EcommerceWebsite() {
                         <p className="text-[20px] leading-[30px] text-[#303030] mt-4">
                           Amazon Essentials is focused on creating affordable,
                           high-quality, and long-lasting everyday clothing you
-                          can rely on. Our line of women's apparel includes
+                          can rely on. Our line of womens apparel includes
                           cashmere sweaters, fleece and down jackets, and more,
                           including plus-size options. Our consistent sizing
                           takes the guesswork out of shopping, and each piece is
@@ -154,8 +154,8 @@ export default function EcommerceWebsite() {
                                 />
                               </svg>
                             </span>
-                            Lorem Ipsum has been the industry's standard dummy
-                            text ever since the 1500s
+                            {`Lorem Ipsum has been the industry's standard dummy
+                            text ever since the 1500s`}
                           </li>
 
                           <li className="flex items-center justify-start gap-3 text-[20px] leading-[30px] text-[#303030] mt-4">
