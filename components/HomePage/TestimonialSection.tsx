@@ -30,7 +30,7 @@ export default function TestimonialSection() {
             <Swiper
               navigation={true}
               modules={[Navigation]}
-              className="mySwiper"
+              className="mySwiper testimonial"
               autoHeight={true}
               freeMode={true}
               breakpoints={{

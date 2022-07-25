@@ -149,7 +149,7 @@ a {
   transform: rotate(180deg);
 }
 
-.swiper-slide-next {
+.testimonial .swiper-slide-next {
   transform: scale(1.13) !important;
 }
 .swiper-slide-next .testimonialHover {
@@ -325,6 +325,13 @@ ul.react-tabs__tab-list{
   transition: all 0.3s ease-in-out;
   z-index: 2;
   transform: rotate(180deg);
+}
+
+.swiper-button-next:hover {
+    cursor: pointer;
+}
+.swiper-button-prev:hover {
+    cursor: pointer;
 }
 .mySwiperProduct .swiper-button-next:after {
   content: url(/_next/static/media/right-arrow.d6626ab3.svg);
