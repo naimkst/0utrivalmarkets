@@ -16,56 +16,69 @@ export default function Header() {
         <div className="flex items-center justify-between pt-[8px] px-4">
           <div className="hidden md:block hover:cursor-pointer">
             <Link href="/">
-            <Image src={logo} width={173} height={131} />
+              <Image src={logo} width={173} height={131} />
             </Link>
           </div>
           <div className="md:hidden hover:cursor-pointer">
-          <Link href="/"><Image src={logo} width={85} height={60} /></Link>
+            <Link href="/">
+              <Image src={logo} width={85} height={60} />
+            </Link>
           </div>
           <div className="hidden md:block">
             <ul className="flex justify-between items-center gap-16 md:gap-10">
               <Link href="/service">
-              <li>
-                <a
-                  className="text-[24px] text-[#090D48] font-semibold hover:text-white"
-                  href=""
-                >
-                  Service
-                </a>
-              </li>
+                <li>
+                  <a
+                    className="text-[24px] text-[#090D48] font-semibold hover:text-white"
+                    href=""
+                  >
+                    Service
+                  </a>
+                </li>
               </Link>
 
               <Link href="/portfolio">
-              <li>
-                <a
-                  className="text-[24px] text-[#090D48] font-semibold hover:text-white"
-                  href=""
-                >
-                  Portfolio
-                </a>
-              </li>
+                <li>
+                  <a
+                    className="text-[24px] text-[#090D48] font-semibold hover:text-white"
+                    href=""
+                  >
+                    Portfolio
+                  </a>
+                </li>
               </Link>
 
-              <Link href='/about'>
-              <li>
-                <a
-                  className="text-[24px] text-[#090D48] font-semibold hover:text-white"
-                  href=""
-                >
-                  About
-                </a>
-              </li>
+              <Link href="/about">
+                <li>
+                  <a
+                    className="text-[24px] text-[#090D48] font-semibold hover:text-white"
+                    href=""
+                  >
+                    About
+                  </a>
+                </li>
               </Link>
 
-              <Link href='/blog'>
-              <li>
-                <a
-                  className="text-[24px] text-[#090D48] font-semibold hover:text-white"
-                  href=""
-                >
-                  Blog
-                </a>
-              </li>
+              <Link href="/blog">
+                <li>
+                  <a
+                    className="text-[24px] text-[#090D48] font-semibold hover:text-white"
+                    href=""
+                  >
+                    Blog
+                  </a>
+                </li>
+              </Link>
+
+              <Link href="/contact-us">
+                <li>
+                  <a
+                    className="text-[24px] text-[#090D48] font-semibold hover:text-white"
+                    href=""
+                  >
+                    Contact
+                  </a>
+                </li>
               </Link>
             </ul>
           </div>
