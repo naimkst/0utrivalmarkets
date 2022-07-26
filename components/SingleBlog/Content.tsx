@@ -157,7 +157,7 @@ export default function Content() {
                 {blog
                   ?.filter((item: any, idx: any) => idx < count)
                   .map((book: any, index: any) => (
-                    <Link href={`/blog/${index}`}>
+                    <Link key={index} href={`/blog/${index}`}>
                       <div className="flex items-start hover:cursor-pointer mb-8">
                         <div className="mr-4">
                           <Image src={Blog02} />
