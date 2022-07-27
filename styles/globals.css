@@ -317,7 +317,7 @@ ul.react-tabs__tab-list{
   content: url(/_next/static/media/right-arrow.d6626ab3.svg);
   position: absolute;
   top: 50%;
-  left: 0;
+  left: -35px;
   transform: translate(-50%, -50%);
   width: 30px;
   height: 30px;
@@ -337,7 +337,7 @@ ul.react-tabs__tab-list{
   content: url(/_next/static/media/right-arrow.d6626ab3.svg);
   position: absolute;
   top: 51%;
-  right: 0;
+  right: -50px;
   transform: translate(-50%, -50%);
   width: 30px;
   height: 30px;
@@ -359,6 +359,9 @@ ul.react-tabs__tab-list{
   height: 15px;
 }
 
+.productSlider .swiper {
+    position: inherit !important;
+}
 @keyframes bounce-in {
   /* 0% {
     opacity: 0;

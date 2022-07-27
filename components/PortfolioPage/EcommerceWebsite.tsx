@@ -11,7 +11,7 @@ export default function EcommerceWebsite() {
   return (
     <>
       <div>
-        <div className="max-w-[1307px] m-auto pt-[60px]">
+        <div className="max-w-[1307px] m-auto pt-[60px] relative">
           <div>
             <h2 className="sectionTitle">Product videography </h2>
             <p className="sectionDescription22-30 my-3">
@@ -22,7 +22,7 @@ export default function EcommerceWebsite() {
           </div>
 
           <div>
-            <div>
+            <div className="productSlider">
               <Swiper
                 navigation={true}
                 modules={[Navigation, Pagination, A11y, Mousewheel]}

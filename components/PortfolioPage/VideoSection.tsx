@@ -10,7 +10,7 @@ export default function VideoSection() {
   return (
     <>
       <div>
-        <div className="max-w-[1307px] m-auto py-[90px]">
+        <div className="max-w-[1307px] m-auto py-[90px] relative">
           <div>
             <h2 className="sectionTitle">Product videography </h2>
             <p className="sectionDescription22-30 my-3">
@@ -21,7 +21,7 @@ export default function VideoSection() {
           </div>
 
           <div>
-            <div>
+            <div className="productSlider">
               <Swiper
                 navigation={true}
                 modules={[Navigation, Pagination, A11y, Mousewheel]}

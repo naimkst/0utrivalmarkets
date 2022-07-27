@@ -19,9 +19,9 @@ export default function ProductSectionSlider() {
   return (
     <>
       <div className="">
-        <div className="max-w-[1307px] m-auto pb-24">
-          <div className="relative">
-            <div>
+        <div className="max-w-[1307px] m-auto pb-24 relative">
+          <div className="">
+            <div className="productSlider">
               <Swiper
                 navigation={true}
                 modules={[Navigation, Pagination, A11y, Mousewheel]}
@@ -186,9 +186,7 @@ export default function ProductSectionSlider() {
                         </div>
                       </div>
 
-                      <div 
-                      className="mt-10"
-                      >
+                      <div className="mt-10">
                         <ProductDescription />
                       </div>
                     </div>
@@ -325,9 +323,7 @@ export default function ProductSectionSlider() {
                         </div>
                       </div>
 
-                      <div 
-                      className="mt-10"
-                      >
+                      <div className="mt-10">
                         <ProductDescription />
                       </div>
                     </div>
@@ -464,15 +460,12 @@ export default function ProductSectionSlider() {
                         </div>
                       </div>
 
-                      <div 
-                      className="mt-10"
-                      >
+                      <div className="mt-10">
                         <ProductDescription />
                       </div>
                     </div>
                   </div>
                 </SwiperSlide>
-                
               </Swiper>
             </div>
 
