@@ -67,8 +67,12 @@ export default function AmazonSeller() {
                 </ul>
               </div>
             </div>
-            <div>
-              <Image src={Seller01} />
+            <div
+              className="relative"
+              data-aos="slide-left"
+              data-aos-offset="200"
+            >
+              <Image className="bounce-in imgHover" src={Seller01} />
             </div>
           </div>
         </div>
@@ -77,8 +81,12 @@ export default function AmazonSeller() {
       <div className="bg-[url('/assets/images/service/dot-bg.png')] bg-cover py-[90px]">
         <div className="max-w-[1307px] m-auto">
           <div className="grid grid-cols-2 items-center gap-10 justify-between">
-            <div>
-              <Image src={Seller02} />
+            <div
+              className="relative"
+              data-aos="slide-right"
+              data-aos-offset="200"
+            >
+              <Image className="bounce-in imgHover" src={Seller02} />
             </div>
             <div>
               <div className="mb-12">
@@ -125,8 +133,12 @@ export default function AmazonSeller() {
                 </p>
               </div>
             </div>
-            <div>
-              <Image src={Seller03} />
+            <div
+              className="relative"
+              data-aos="slide-left"
+              data-aos-offset="200"
+            >
+              <Image className="bounce-in imgHover" src={Seller03} />
             </div>
           </div>
         </div>
@@ -135,8 +147,12 @@ export default function AmazonSeller() {
       <div className="bg-[url('/assets/images/service/dot-bg.png')] bg-cover py-[90px]">
         <div className="max-w-[1307px] m-auto">
           <div className="grid grid-cols-2 items-center gap-10 justify-between">
-            <div>
-              <Image src={Seller04} />
+            <div
+              className="relative"
+              data-aos="slide-right"
+              data-aos-offset="200"
+            >
+              <Image className="bounce-in imgHover" src={Seller04} />
             </div>
             <div>
               <div className="mb-12">
@@ -183,8 +199,12 @@ export default function AmazonSeller() {
                 </p>
               </div>
             </div>
-            <div>
-              <Image src={Seller05} />
+            <div
+              className="relative"
+              data-aos="slide-left"
+              data-aos-offset="200"
+            >
+              <Image className="bounce-in imgHover" src={Seller05} />
             </div>
           </div>
         </div>
@@ -193,8 +213,12 @@ export default function AmazonSeller() {
       <div className="bg-[url('/assets/images/service/dot-bg.png')] bg-cover py-[90px]">
         <div className="max-w-[1307px] m-auto">
           <div className="grid grid-cols-2 items-center gap-10 justify-between">
-            <div>
-              <Image src={Seller06} />
+            <div
+              className="relative"
+              data-aos="slide-right"
+              data-aos-offset="200"
+            >
+              <Image className="bounce-in imgHover" src={Seller06} />
             </div>
             <div>
               <div className="mb-12">
@@ -241,8 +265,12 @@ export default function AmazonSeller() {
                 </p>
               </div>
             </div>
-            <div>
-              <Image src={Seller07} />
+            <div
+              className="relative"
+              data-aos="slide-left"
+              data-aos-offset="200"
+            >
+              <Image className="bounce-in imgHover" src={Seller07} />
             </div>
           </div>
         </div>
@@ -251,8 +279,12 @@ export default function AmazonSeller() {
       <div className="bg-[url('/assets/images/service/dot-bg.png')] bg-cover py-[90px]">
         <div className="max-w-[1307px] m-auto">
           <div className="grid grid-cols-2 items-center gap-10 justify-between">
-            <div>
-              <Image src={Seller08} />
+            <div
+              className="relative"
+              data-aos="slide-right"
+              data-aos-offset="200"
+            >
+              <Image className="bounce-in imgHover" src={Seller08} />
             </div>
             <div>
               <div className="mb-12">
@@ -299,8 +331,12 @@ export default function AmazonSeller() {
                 </p>
               </div>
             </div>
-            <div>
-              <Image src={Seller09} />
+            <div
+              className="relative"
+              data-aos="slide-left"
+              data-aos-offset="200"
+            >
+              <Image className="bounce-in imgHover" src={Seller09} />
             </div>
           </div>
         </div>

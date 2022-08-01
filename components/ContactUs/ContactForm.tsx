@@ -52,11 +52,16 @@ export default function ContactForm() {
                   >
                     Subject
                   </label>
-                  <input
+                  <select
                     className="w-full h-12 border-b-[1px] border-[#303030] focus:outline-none bg-[#FAFAFA]"
-                    type="text"
                     placeholder="Write your subject.."
-                  />
+                  >
+                    <option selected>Choose a Subject</option>
+                    <option value="US">Subject One</option>
+                    <option value="CA">Subject Two</option>
+                    <option value="FR">Subject Three</option>
+                    <option value="DE">Subject Four</option>
+                  </select>
                 </div>
 
                 <div className="my-10">

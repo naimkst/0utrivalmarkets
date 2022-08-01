@@ -31,8 +31,12 @@ export default function Branding() {
                 industrys standard dummy text ever since the 1500s,
               </p>
             </div>
-            <div>
-              <Image src={Seller012} />
+            <div
+              className="relative"
+              data-aos="slide-left"
+              data-aos-offset="200"
+            >
+              <Image className="bounce-in imgHover" src={Seller012} />
             </div>
           </div>
 
@@ -202,7 +206,7 @@ export default function Branding() {
           <div className="text-center mt-8">
             <Link href="/">
               <button className="buttonBg font-bold text-[24px] text-white py-[15px] px-[45px] rounded-[7px] mt-8">
-              CONTACT US 
+                CONTACT US
               </button>
             </Link>
           </div>

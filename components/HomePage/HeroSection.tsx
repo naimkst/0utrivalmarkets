@@ -45,7 +45,7 @@ export default function HeroSection() {
               data-aos="slide-left"
               data-aos-offset="200"
             >
-              <Image className="z-10 bounce-in" src={heroImage} />
+              <Image className="z-10 bounce-in imgHover" src={heroImage} />
               <div className="bg-white inline-block py-4 px-6 rounded-[12px] absolute -left-24 top-[55%] z-0 hidden md:block">
                 <p className="text-[14px] font-bold">1000,000 Happy Clients</p>
                 <div>

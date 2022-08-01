@@ -32,8 +32,12 @@ export default function ProjectIdea() {
                 <Image src={projectDot} />
               </div>
             </div>
-            <div>
-              <Image src={projectIdea} />
+            <div
+              className="relative"
+              data-aos="slide-left"
+              data-aos-offset="200"
+            >
+              <Image className=" bounce-in imgHover" src={projectIdea} />
             </div>
           </div>
           <div></div>

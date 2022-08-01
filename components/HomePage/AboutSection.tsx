@@ -8,8 +8,12 @@ export default function AboutSection() {
       <div className="py-[90px] px-5 md:px-0">
         <div className="container max-w-[1307px] m-auto">
           <div className="grid-row grid-cols-2 gap-4 justify-between items-center md:grid md:grid-cols-2">
-            <div className="bounce-in">
-              <Image src={About} width={700} />
+            <div
+              className="bounce-in"
+              data-aos="slide-left"
+              data-aos-offset="200"
+            >
+              <Image className="bounce-in imgHover" src={About} width={700} />
             </div>
             <div>
               <div className="relative">

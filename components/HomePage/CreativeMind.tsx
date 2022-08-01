@@ -25,8 +25,12 @@ export default function CreativeMind() {
                 Send us a message
               </button>
             </div>
-            <div className="col-span-2">
-              <Image src={Breliant} />
+            <div
+              className="col-span-2 relative"
+              data-aos="slide-left"
+              data-aos-offset="200"
+            >
+              <Image className="imgHover" src={Breliant} />
             </div>
           </div>
         </div>
@@ -35,8 +39,12 @@ export default function CreativeMind() {
       <div className="py-[90px]">
         <div className="container max-w-[1307px] m-auto">
           <div className="grid grid-cols-5 gap-6 justify-between items-center">
-            <div className="col-span-2">
-              <Image src={mindLeft} />
+            <div
+              className="col-span-2 relative"
+              data-aos="slide-right"
+              data-aos-offset="200"
+            >
+              <Image className="imgHover" src={mindLeft} />
             </div>
             <div className="col-span-3">
               <h2 className="text-[45px] text-[#090d48] leading-[60px] font-semibold mb-5">
@@ -49,9 +57,9 @@ export default function CreativeMind() {
                 leave the nitty gritty to us?!
               </p>
               <Link href="/">
-              <button className="bg-gradient-to-r from-[#FF9127] to-[#F45356] py-[18px] px-[45px] text-white font-bold text-[24px] rounded-[7px] mt-8 hover:from-[#F45356] hover:to-[#FF9127]">
-                Send us a message
-              </button>
+                <button className="bg-gradient-to-r from-[#FF9127] to-[#F45356] py-[18px] px-[45px] text-white font-bold text-[24px] rounded-[7px] mt-8 hover:from-[#F45356] hover:to-[#FF9127]">
+                  Send us a message
+                </button>
               </Link>
             </div>
           </div>

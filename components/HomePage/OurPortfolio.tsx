@@ -28,8 +28,12 @@ export default function OurPortfolio() {
                 </Link>
               </div>
             </div>
-            <div>
-              <Image src={Portfolio} />
+            <div
+              className="relative"
+              data-aos="slide-left"
+              data-aos-offset="200"
+            >
+              <Image className="imgHover" src={Portfolio} />
             </div>
           </div>
           <div></div>

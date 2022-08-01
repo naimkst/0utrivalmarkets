@@ -1,6 +1,6 @@
 import Image from "next/image";
 import React from "react";
-import logo from "../../public/assets/images/logo.png";
+import logo from "../../public/assets/images/logonew.svg";
 import { HiMenuAlt3 } from "react-icons/hi";
 import Link from "next/link";
 
@@ -13,10 +13,10 @@ export default function Header() {
   return (
     <div>
       <div className="container max-w-[1307px] m-auto">
-        <div className="flex items-center justify-between pt-[8px] px-4">
+        <div className="flex items-center justify-between px-4">
           <div className="hidden md:block hover:cursor-pointer">
             <Link href="/">
-              <Image src={logo} width={173} height={131} />
+              <Image src={logo} />
             </Link>
           </div>
           <div className="md:hidden hover:cursor-pointer">

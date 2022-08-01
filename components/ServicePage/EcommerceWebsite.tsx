@@ -9,8 +9,12 @@ export default function EcommerceWebsite() {
       <div className="py-[90px]">
         <div className="max-w-[1307px] m-auto">
           <div className="grid grid-cols-2 gap-6 justify-between items-center">
-            <div>
-              <Image src={Seller011} />
+            <div
+              className="relative"
+              data-aos="slide-right"
+              data-aos-offset="200"
+            >
+              <Image className="bounce-in imgHover" src={Seller011} />
             </div>
             <div>
               <h2 className="font-bold text-[50px] leading-[55px] text-[#090D48] mb-3">
@@ -34,7 +38,7 @@ export default function EcommerceWebsite() {
           <div className="text-center mt-8">
             <Link href="/">
               <button className="buttonBg font-bold text-[24px] text-white py-[15px] px-[45px] rounded-[7px] mt-8">
-              See our recent projects
+                See our recent projects
               </button>
             </Link>
           </div>

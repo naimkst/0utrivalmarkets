@@ -23,14 +23,18 @@ export default function WeOffer() {
               achieve just this!
             </p>
           </div>
-          <div>
-            <Image src={WeOffer01} />
+          <div className="relative" data-aos="slide-left" data-aos-offset="200">
+            <Image className="imgHover" src={WeOffer01} />
           </div>
         </div>
 
         <div className="grid grid-cols-2 gap-10 items-center justify-between">
-          <div>
-            <Image src={WeOffer02} />
+          <div
+            className="relative"
+            data-aos="slide-right"
+            data-aos-offset="200"
+          >
+            <Image className="imgHover" src={WeOffer02} />
           </div>
           <div>
             <h2 className="text-[42px] leading-[45px] font-bold text-[#090D48] mb-5">
@@ -46,7 +50,9 @@ export default function WeOffer() {
 
         <div className="mt-20 items-center text-center">
           <Link href="/">
-          <a className="buttonBg text-[24px] font-bold leading-[27px] text-white text-center py-[20px] px-[50px] rounded-[7px]">Find More</a>
+            <a className="buttonBg text-[24px] font-bold leading-[27px] text-white text-center py-[20px] px-[50px] rounded-[7px]">
+              Find More
+            </a>
           </Link>
         </div>
       </div>

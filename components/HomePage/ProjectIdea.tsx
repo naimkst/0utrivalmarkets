@@ -33,8 +33,8 @@ export default function ProjectIdea() {
                 <Image src={projectDot} />
               </div>
             </div>
-            <div>
-              <Image src={projectIdea} />
+            <div data-aos="slide-left" data-aos-offset="200">
+              <Image className="imgHover" src={projectIdea} />
             </div>
           </div>
           <div></div>

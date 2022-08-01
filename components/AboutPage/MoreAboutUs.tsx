@@ -24,8 +24,8 @@ export default function MoreAboutUs() {
               book. It has survived not only five centuries,
             </p>
           </div>
-          <div>
-            <Image src={HayTheres} />
+          <div className="relative" data-aos="slide-left" data-aos-offset="200">
+            <Image className=" bounce-in imgHover" src={HayTheres} />
           </div>
         </div>
       </div>

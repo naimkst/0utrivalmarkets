@@ -25,7 +25,7 @@ export default function AskQuestion() {
               <div className="relative z-10">
                 <Link href="/">
                   <button className="buttonBg font-bold text-[24px] text-white py-[15px] px-[45px] rounded-[7px] mt-8">
-                    CONTACT US 
+                    CONTACT US
                   </button>
                 </Link>
               </div>
@@ -33,8 +33,12 @@ export default function AskQuestion() {
                 <Image src={projectDot} />
               </div>
             </div>
-            <div>
-              <Image src={Seller010} />
+            <div
+              className="relative"
+              data-aos="slide-left"
+              data-aos-offset="200"
+            >
+              <Image className="bounce-in imgHover" src={Seller010} />
             </div>
           </div>
           <div></div>

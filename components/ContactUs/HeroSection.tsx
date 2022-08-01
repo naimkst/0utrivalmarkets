@@ -31,7 +31,10 @@ export default function HeroSection() {
               data-aos="slide-left"
               data-aos-offset="200"
             >
-              <Image className="z-10 bounce-in" src={heroImage} />
+              <Image
+                className="z-10 bounce-in imgHover"
+                src={heroImage}
+              />
             </div>
           </div>
         </div>

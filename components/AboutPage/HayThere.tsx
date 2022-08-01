@@ -7,8 +7,8 @@ export default function HayThere() {
     <>
       <div className="py-[90px]">
         <div className="container max-w-[1307px] m-auto grid grid-cols-2 items-center gap-4 justify-between">
-          <div>
-            <Image src={HayTheres} />
+          <div className="relative" data-aos="slide-right" data-aos-offset="200">
+            <Image className="bounce-in imgHover" src={HayTheres} />
           </div>
           <div>
             <h2 className="sectionTitle mb-5">Hay There</h2>

@@ -17,9 +17,12 @@ export default function HeroSection() {
               <div data-aos="slide-right relative">
                 <div data-aos="slide-right">
                   <h1 className="bounce text-[42px] md:text-[60px] leading-[50px] md:leading-[65px] text-white font-extrabold">
-                  We offer a wide variety of solutions for e-commerce sellers
+                    We offer a wide variety of solutions for e-commerce sellers
                   </h1>
-                  <p className="text-[24px] leading-[30px] text-white font-medium mt-5">Our goal is top at the heart of creativity services industry as a digital creator. In has a after comment</p>
+                  <p className="text-[24px] leading-[30px] text-white font-medium mt-5">
+                    Our goal is top at the heart of creativity services industry
+                    as a digital creator. In has a after comment
+                  </p>
                 </div>
               </div>
             </div>
@@ -28,8 +31,7 @@ export default function HeroSection() {
               data-aos="slide-left"
               data-aos-offset="200"
             >
-              <Image className="z-10 bounce-in" src={heroImage} />
-             
+              <Image className="z-10 bounce-in imgHover" src={heroImage} />
             </div>
           </div>
         </div>
