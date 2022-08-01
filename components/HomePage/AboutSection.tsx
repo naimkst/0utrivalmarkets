@@ -10,7 +10,7 @@ export default function AboutSection() {
           <div className="grid-row grid-cols-2 gap-4 justify-between items-center md:grid md:grid-cols-2">
             <div
               className="bounce-in"
-              data-aos="slide-left"
+              data-aos="slide-right"
               data-aos-offset="200"
             >
               <Image className="bounce-in imgHover" src={About} width={700} />
