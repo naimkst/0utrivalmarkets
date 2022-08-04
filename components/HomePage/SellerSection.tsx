@@ -5,7 +5,7 @@ import { BsArrowRight } from "react-icons/bs";
 export default function SellerSection() {
   return (
     <>
-      <div className='bg-[url("/assets/images/service-dot.png")] bg-cover py-[90px]'>
+      <div className='bg-[url("/assets/images/service-dot.png")] bg-cover md:py-[90px] py-10 md:px-10 px-10'>
         <div className="container max-w-[1307px] m-auto ">
           <div>
             <div>
@@ -18,7 +18,7 @@ export default function SellerSection() {
                 <br /> sellers.
               </p>
             </div>
-            <div className="grid grid-cols-3 gap-6 items-center justify-center content-center mt-14">
+            <div className="grid md:grid-cols-3 grid-cols-1 gap-6 items-center justify-center content-center mt-14">
               <div className="border-2 border-[#090D48] text-center rounded-[20px] h-[380px] items-center justify-center p-[30px] flex hover:bg-gradient-to-t from-[#F55555] group to-[#FF8C2C] hover:cursor-pointer">
                 <div>
                   <div>

@@ -19,11 +19,16 @@ export default function Header() {
               <Image src={logo} />
             </Link>
           </div>
-          <div className="md:hidden hover:cursor-pointer">
-            <Link href="/">
-              <Image src={logo} width={85} height={60} />
-            </Link>
-          </div>
+          <Link href="/">
+            <div className="md:hidden hover:cursor-pointer object-none object-left">
+              <Image
+                className="object-none object-left"
+                src={logo}
+                width={200}
+                height={60}
+              />
+            </div>
+          </Link>
           <div className="hidden md:block">
             <ul className="flex justify-between items-center gap-16 md:gap-10">
               <Link href="/service">

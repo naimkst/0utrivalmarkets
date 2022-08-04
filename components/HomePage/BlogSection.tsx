@@ -6,14 +6,14 @@ import Blog02 from "../../public/assets/images/blog02.png";
 export default function BlogSection() {
   return (
     <>
-      <div className="pt-[100px] pb-[140px] bg-[url('/assets/images/blog-bg.svg')] bg-no-repeat bg-auto">
+      <div className="pt-[100px] md:pb-[140px] pb-[60px] bg-[url('/assets/images/blog-bg.svg')] bg-no-repeat bg-auto md:px-0 px-10">
         <div className="m-auto max-w-[1307px] container">
           <div>
             <div>
               <p className="text-[18px] leading-[28px] font-[600] text-white">
                 Our Blog
               </p>
-              <h2 className="text-[42px] leading-[52px] font-bold text-white py-5">
+              <h2 className="md:text-[42px] text-[35px] md:leading-[52px] leading-[40px] font-bold text-white py-5">
                 Some of our recent <br />
                 blog posts
               </h2>
@@ -23,8 +23,8 @@ export default function BlogSection() {
               </p>
             </div>
 
-            <div className="grid grid-cols-2 gap-8 mt-16">
-              <div className="bg-[#FAFAFA] rounded-[7px] p-8 grid grid-cols-2 items-center justify-start gap-3">
+            <div className="grid md:grid-cols-2 grid-cols-1 gap-8 mt-16">
+              <div className="bg-[#FAFAFA] rounded-[7px] p-8 grid md:grid-cols-2 grid-cols-1 items-center justify-start gap-3">
                 <div
                   className="relative"
                   data-aos="slide-right"
@@ -50,7 +50,7 @@ export default function BlogSection() {
                   </Link>
                 </div>
               </div>
-              <div className="bg-[#FAFAFA] rounded-[7px] p-8 grid grid-cols-2 items-center justify-start gap-3">
+              <div className="bg-[#FAFAFA] rounded-[7px] p-8 grid md:grid-cols-2 grid-cols-1 items-center justify-start gap-3">
                 <div
                   className="relative"
                   data-aos="slide-left"

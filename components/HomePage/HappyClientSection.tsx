@@ -4,15 +4,14 @@ import CountUp, { useCountUp } from "react-countup";
 import VisibilitySensor from "react-visibility-sensor";
 
 export default function HappyClientSection() {
-
   return (
     <>
-      <div className="pb-[150px]">
+      <div className="md:pb-[150px]">
         <div>
           <div className="">
-            <div className="h-[299px] bg-gradient-to-r from-[#FF9127] to-[#F45356] pt-32">
+            <div className="md:h-[299px] bg-gradient-to-r from-[#FF9127] to-[#F45356] md:pt-32 pt-14  px-5 md:px-0 pb-14 md:pb-0">
               <div className="container max-w-[1307px] m-auto">
-                <div className="grid grid-cols-4 items-center justify-between content-center gap-6">
+                <div className="grid md:grid-cols-4 grid-cols-1 items-center justify-between content-center gap-6">
                   <div className="bg-[#FAFAFA] content-center text-center py-[60px] h-[280px] rounded-[25px] group hover:bg-gradient-to-t from-[#F75A54] to-[#FF8B2E] hover:cursor-pointer hover:border-2 hover:border-[#090D48] border-2 border-[#FAFAFA]">
                     <div className="m-auto text-center justify-center content-center w-full">
                       <svg

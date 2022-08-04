@@ -7,10 +7,10 @@ import WeOffer02 from "../../public/assets/images/weoffer02.png";
 export default function WeOffer() {
   return (
     <>
-      <div className="container max-w-[1307px] m-auto py-[90px]">
-        <div className="grid grid-cols-2 gap-10 items-center justify-between mb-10">
+      <div className="container max-w-[1307px] m-auto py-[90px] md:px-0 px-10">
+        <div className="grid md:grid-cols-2 grid-cols-1 gap-10 items-center justify-between mb-10">
           <div>
-            <h2 className="text-[42px] leading-[45px] font-bold text-[#090D48] mb-5">
+            <h2 className="md:text-[42px] text-[35px] md:leading-[45px] leading-[40px] font-bold text-[#090D48] mb-5">
               We also offer a wide variety of marketing solutions for ecommerce
               sellers
             </h2>
@@ -28,7 +28,7 @@ export default function WeOffer() {
           </div>
         </div>
 
-        <div className="grid grid-cols-2 gap-10 items-center justify-between">
+        <div className="grid md:grid-cols-2 grid-cols-1 gap-10 items-center justify-between">
           <div
             className="relative"
             data-aos="slide-right"
@@ -37,7 +37,7 @@ export default function WeOffer() {
             <Image className="imgHover" src={WeOffer02} />
           </div>
           <div>
-            <h2 className="text-[42px] leading-[45px] font-bold text-[#090D48] mb-5">
+            <h2 className="md:text-[42px] text-[35px] md:leading-[45px] leading-[40px] font-bold text-[#090D48] mb-5">
               Building a brand?
             </h2>
             <p className="text-[#090D48] leading-[35px] text-[22px]">

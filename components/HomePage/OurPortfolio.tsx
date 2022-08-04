@@ -6,9 +6,9 @@ import Portfolio from "../../public/assets/images/portfolio.png";
 export default function OurPortfolio() {
   return (
     <>
-      <div className="relative py-[90px]">
+      <div className="relative md:py-[90px] py-10 px-5 md:px-0">
         <div className="container max-w-[1307px] m-auto">
-          <div className="grid grid-cols-2 items-center justify-center">
+          <div className="grid md:grid-cols-2 grid-cols-1 items-center justify-center">
             <div className="relative">
               <p className="text-[30px] leading-[40px] text-[#090D48] font-[600]">
                 Our Portfolio
@@ -20,7 +20,7 @@ export default function OurPortfolio() {
                 Feel free to drop us a question here.. kindly add some details
                 so that we get the best understanding of what your goal may be.
               </p>
-              <div className="mt-14 relative z-10">
+              <div className="mt-14 relative z-10 mb-16 md:mb-0">
                 <Link href="/">
                   <a className="buttonBg font-bold text-[24px] text-white py-[20px] px-[50px] rounded-[7px] mt-10">
                     See all
