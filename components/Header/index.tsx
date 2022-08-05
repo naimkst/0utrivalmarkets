@@ -64,17 +64,6 @@ export default function Header() {
                 </li>
               </Link>
 
-              <Link href="/blog">
-                <li>
-                  <a
-                    className="text-[24px] text-[#090D48] font-semibold hover:text-white"
-                    href=""
-                  >
-                    Blog
-                  </a>
-                </li>
-              </Link>
-
               <Link href="/contact-us">
                 <li>
                   <a
@@ -129,16 +118,6 @@ export default function Header() {
                     href=""
                   >
                     About
-                  </a>
-                </li>
-              </Link>
-              <Link href="/blog">
-                <li>
-                  <a
-                    className="text-[24px] leading-[40px] text-white font-semibold"
-                    href=""
-                  >
-                    Blog
                   </a>
                 </li>
               </Link>
