@@ -1,13 +1,17 @@
-import Image from 'next/image'
-import React from 'react'
-import HayTheres from '../../public/assets/images/about/haythere.png'
+import Image from "next/image";
+import React from "react";
+import HayTheres from "../../public/assets/images/about/haythere.png";
 
 export default function HayThere() {
   return (
     <>
-      <div className="py-[90px]">
-        <div className="container max-w-[1307px] m-auto grid grid-cols-2 items-center gap-4 justify-between">
-          <div className="relative" data-aos="slide-right" data-aos-offset="200">
+      <div className="md:py-[90px] py-[50px] md:px-0 px-5">
+        <div className="container max-w-[1307px] m-auto grid md:grid-cols-2 grid-cols-1 items-center gap-4 justify-between">
+          <div
+            className="relative"
+            data-aos="slide-right"
+            data-aos-offset="200"
+          >
             <Image className="bounce-in imgHover" src={HayTheres} />
           </div>
           <div>

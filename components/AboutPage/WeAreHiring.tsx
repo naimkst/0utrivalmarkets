@@ -1,6 +1,6 @@
-import Link from 'next/link';
-import React from 'react'
-import { BsArrowRight } from 'react-icons/bs';
+import Link from "next/link";
+import React from "react";
+import { BsArrowRight } from "react-icons/bs";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation } from "swiper";
 import "swiper/css";
@@ -8,11 +8,11 @@ import "swiper/css";
 export default function WeAreHiring() {
   return (
     <>
-      <div className='bg-[url("/assets/images/service-dot.png")] bg-cover py-[90px]'>
+      <div className='bg-[url("/assets/images/service-dot.png")] bg-cover md:py-[90px] py-[50px] md:px-0 px-5'>
         <div className="container max-w-[1307px] m-auto ">
           <div>
             <div>
-              <h2 className="text-[#090D48] leading-[76px] text-[50px] font-bold">
+              <h2 className="text-[#090D48] md:leading-[76px] leading-[45px] md:text-[50px] text-[35px] font-bold">
                 We are hiring
               </h2>
               <p className="sectionDescription">

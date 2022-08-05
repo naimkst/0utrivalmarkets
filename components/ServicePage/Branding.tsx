@@ -6,11 +6,11 @@ import Seller012 from "../../public/assets/images/service/seller12.png";
 export default function Branding() {
   return (
     <>
-      <div className="py-[90px]">
+      <div className="md:py-[90px] py-[50px] md:px-0 px-5">
         <div className="max-w-[1307px] m-auto">
-          <div className="grid grid-cols-2 gap-6 justify-between items-center mb-12">
+          <div className="grid md:grid-cols-2 grid-cols-1 gap-6 justify-between items-center mb-12">
             <div>
-              <h2 className="font-bold text-[50px] leading-[55px] text-[#090D48] mb-3">
+              <h2 className="font-bold md:text-[50px] text-[34px] md:leading-[55px] leading-[45px] text-[#090D48] mb-3">
                 Ecommerce Website
               </h2>
 
@@ -41,10 +41,10 @@ export default function Branding() {
           </div>
 
           <div>
-            <div className="font-bold text-[50px] leading-[55px] text-[#090D48] mb-3">
+            <div className="font-bold md:text-[50px] text-[35px] md:leading-[55px] leading-[45px] text-[#090D48] mb-3">
               <h2>Lets talk about your next brand</h2>
             </div>
-            <div className="grid grid-cols-4 gap-6 items-center mt-10">
+            <div className="grid md:grid-cols-4 grid-cols-1 gap-6 items-center mt-10">
               <div className=" py-[62px] px-[35px] group hover:brandHover">
                 <div className="mb-5">
                   <svg

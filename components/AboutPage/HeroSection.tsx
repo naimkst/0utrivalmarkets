@@ -16,7 +16,7 @@ export default function HeroSection() {
   }, []);
   return (
     <>
-      <div className="serviceBg pt-[160px] -mt-[146px] px-4 md:px-0">
+      <div className="serviceBg md:pt-[160px] pt-[200px] -mt-[146px] px-4 md:px-0">
         <div className="container max-w-[1307px] m-auto">
           <div className="mb-0 pb-0">
             <div>

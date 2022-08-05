@@ -7,12 +7,12 @@ import Link from "next/link";
 export default function ProjectIdea() {
   return (
     <>
-      <div className="bg-[#fafafa] relative py-[60px]">
+      <div className="bg-[#fafafa] relative py-[60px] md:px-0 px-5">
         <div className="absolute left-0 top-0">
           {/* <Image src={secrionTop}/> */}
         </div>
         <div className="container max-w-[1307px] m-auto">
-          <div className="grid grid-cols-2 items-center justify-center">
+          <div className="grid md:grid-cols-2 grid-cols-1 items-center justify-center">
             <div className="relative">
               <h2 className="text-[42px] leading-[56px] font-[600] text-[#090D48] mb-2">
                 Have an idea of a project?

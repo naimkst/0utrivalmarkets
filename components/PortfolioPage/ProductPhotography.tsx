@@ -32,7 +32,7 @@ export default function ProductPhotography() {
   return (
     <>
       <div>
-        <div className="max-w-[1307px] m-auto py-[90px]">
+        <div className="max-w-[1307px] m-auto md:py-[90px] py-[50px] md:px-0 px-5">
           <div>
             <h2 className="sectionTitle">Product photography </h2>
             <p className="sectionDescription22-30 my-3">
@@ -43,7 +43,7 @@ export default function ProductPhotography() {
           </div>
 
           <div className="mt-14">
-            <div className="grid grid-cols-3 gap-8">
+            <div className="grid md:grid-cols-3 grid-cols-1 gap-8">
               {IMG?.map((item: any, index: any) => (
                 <div
                   key={index}

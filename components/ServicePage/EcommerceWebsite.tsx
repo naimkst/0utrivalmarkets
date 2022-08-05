@@ -6,9 +6,9 @@ import Seller011 from "../../public/assets/images/service/seller11.png";
 export default function EcommerceWebsite() {
   return (
     <>
-      <div className="py-[90px]">
+      <div className="md:py-[90px] py-[50px] md:px-0 px-5">
         <div className="max-w-[1307px] m-auto">
-          <div className="grid grid-cols-2 gap-6 justify-between items-center">
+          <div className="grid md:grid-cols-2 grid-cols-1 gap-6 justify-between items-center">
             <div
               className="relative"
               data-aos="slide-right"
@@ -17,7 +17,7 @@ export default function EcommerceWebsite() {
               <Image className="bounce-in imgHover" src={Seller011} />
             </div>
             <div>
-              <h2 className="font-bold text-[50px] leading-[55px] text-[#090D48] mb-3">
+              <h2 className="font-bold md:text-[50px] text-[40px] md:leading-[55px] leading-[45px] text-[#090D48] mb-3">
                 Ecommerce Website
               </h2>
               <h5 className="!font-semibold sectionTitle35-35 mb-3 ">

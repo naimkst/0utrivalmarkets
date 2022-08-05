@@ -187,7 +187,7 @@ a {
 }
 
 .imgHover {
-  @apply transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-105 duration-300 cursor-pointer
+  @apply transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-105 duration-300 cursor-pointer;
 }
 
 @media only screen and (max-width: 600px) {
@@ -208,13 +208,15 @@ a {
   .swiper-slide-active p {
     color: #fff;
   }
+  .swiper-slide .selected-image {
+    height: 350px;
+  }
 }
 
 .bounce-in {
   /* animation: bounce-in 2s ease infinite; */
   animation: bounce-in 3s ease;
 }
-
 
 /* Image Carousel */
 
@@ -272,10 +274,9 @@ a {
   right: -35px;
 }
 
-
 /* react Tab */
 
-ul.react-tabs__tab-list .react-tabs__tab{
+ul.react-tabs__tab-list .react-tabs__tab {
   display: block;
 }
 
@@ -310,12 +311,11 @@ ul.react-tabs__tab-list li {
   border-bottom: 1px solid rgba(48, 48, 48, 0.18);
   padding: 20px 20px 20px 20px;
 }
-ul.react-tabs__tab-list{
+ul.react-tabs__tab-list {
   /* background: #F4F4F4; */
   /* border: 1px solid rgba(48, 48, 48, 0.18); */
   border-radius: 5px;
   border-bottom: none;
-
 }
 .mySwiperProduct .swiper-button-prev:after {
   content: url(/_next/static/media/right-arrow.d6626ab3.svg);
@@ -332,10 +332,10 @@ ul.react-tabs__tab-list{
 }
 
 .swiper-button-next:hover {
-    cursor: pointer;
+  cursor: pointer;
 }
 .swiper-button-prev:hover {
-    cursor: pointer;
+  cursor: pointer;
 }
 .mySwiperProduct .swiper-button-next:after {
   content: url(/_next/static/media/right-arrow.d6626ab3.svg);
@@ -351,22 +351,21 @@ ul.react-tabs__tab-list{
 }
 
 .mySwiperProduct span.swiper-pagination-bullet.swiper-pagination-bullet-active {
-  color: #FC6E36;
-  background: #FC6E36;
+  color: #fc6e36;
+  background: #fc6e36;
   width: 15px;
   height: 15px;
 }
 .mySwiperProduct span.swiper-pagination-bullet {
-  color: #FC6E36;
-  background: #FC6E36;
+  color: #fc6e36;
+  background: #fc6e36;
   width: 15px;
   height: 15px;
 }
 
 .productSlider .swiper {
-    position: inherit !important;
+  position: inherit !important;
 }
-
 
 @keyframes bounce-in {
   /* 0% {

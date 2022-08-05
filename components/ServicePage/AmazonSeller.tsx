@@ -15,12 +15,12 @@ import Seller09 from "../../public/assets/images/service/seller09.png";
 export default function AmazonSeller() {
   return (
     <>
-      <div className="bg-[#FAFAFA] bg-[url('/assets/images/service/dot-bg.png')] bg-cover py-[90px]">
+      <div className="bg-[#FAFAFA] bg-[url('/assets/images/service/dot-bg.png')] bg-cover md:py-[90px] py-[50px] md:px-0 px-5">
         <div className="max-w-[1307px] m-auto">
-          <div className="grid grid-cols-2 items-center gap-6 justify-between">
+          <div className="grid md:grid-cols-2 grid-cols-1 items-center gap-6 justify-between">
             <div>
               <div className="mb-12">
-                <h2 className="text-[50px] leading-[76px] font-bold">
+                <h2 className="md:text-[50px] text-[35px] md:leading-[76px] leading-[40px] font-bold">
                   Amazon seller?
                 </h2>
                 <p className="sectionDescription22-30">
@@ -78,9 +78,9 @@ export default function AmazonSeller() {
         </div>
       </div>
 
-      <div className="bg-[url('/assets/images/service/dot-bg.png')] bg-cover py-[90px]">
+      <div className="bg-[url('/assets/images/service/dot-bg.png')] bg-cover md:py-[90px] py-[50px] md:px-0 px-5">
         <div className="max-w-[1307px] m-auto">
-          <div className="grid grid-cols-2 items-center gap-10 justify-between">
+          <div className="grid md:grid-cols-2 grid-cols-1 items-center gap-10 justify-between">
             <div
               className="relative"
               data-aos="slide-right"
@@ -90,7 +90,7 @@ export default function AmazonSeller() {
             </div>
             <div>
               <div className="mb-12">
-                <h2 className="text-[50px] leading-[76px] font-bold mb-2">
+                <h2 className="md:text-[50px] text-[35px] md:leading-[76px] leading-[40px] font-bold mb-2">
                   Brand store Page setup
                 </h2>
                 <p className="sectionDescription22-30">
@@ -111,12 +111,12 @@ export default function AmazonSeller() {
         </div>
       </div>
 
-      <div className="bg-[#FAFAFA] bg-[url('/assets/images/service/dot-bg.png')] bg-cover py-[90px]">
+      <div className="bg-[#FAFAFA] bg-[url('/assets/images/service/dot-bg.png')] bg-cover md:py-[90px] py-[50px] md:px-0 px-5">
         <div className="max-w-[1307px] m-auto">
-          <div className="grid grid-cols-2 items-center gap-6 justify-between">
+          <div className="grid md:grid-cols-2 grid-cols-1 items-center gap-6 justify-between">
             <div>
               <div className="mb-12">
-                <h2 className="text-[50px] leading-[76px] font-bold">
+                <h2 className="md:text-[50px] text-[35px] md:leading-[76px] leading-[45px] font-bold">
                   A+/ EBC content
                 </h2>
                 <p className="sectionDescription22-30">
@@ -144,9 +144,9 @@ export default function AmazonSeller() {
         </div>
       </div>
 
-      <div className="bg-[url('/assets/images/service/dot-bg.png')] bg-cover py-[90px]">
+      <div className="bg-[url('/assets/images/service/dot-bg.png')] bg-cover md:py-[90px] py-[50px] md:px-0 px-5">
         <div className="max-w-[1307px] m-auto">
-          <div className="grid grid-cols-2 items-center gap-10 justify-between">
+          <div className="grid md:grid-cols-2 grid-cols-1 items-center gap-10 justify-between">
             <div
               className="relative"
               data-aos="slide-right"
@@ -156,7 +156,7 @@ export default function AmazonSeller() {
             </div>
             <div>
               <div className="mb-12">
-                <h2 className="text-[50px] leading-[76px] font-bold mb-2">
+                <h2 className="md:text-[50px] text-[35px] md:leading-[76px] leading-[45px] font-bold mb-2">
                   Product content writing
                 </h2>
                 <p className="sectionDescription22-30">
@@ -177,12 +177,12 @@ export default function AmazonSeller() {
         </div>
       </div>
 
-      <div className="bg-[#FAFAFA] bg-[url('/assets/images/service/dot-bg.png')] bg-cover py-[90px]">
+      <div className="bg-[#FAFAFA] bg-[url('/assets/images/service/dot-bg.png')] bg-cover md:py-[90px] py-[50px] md:px-0 px-5">
         <div className="max-w-[1307px] m-auto">
-          <div className="grid grid-cols-2 items-center gap-6 justify-between">
+          <div className="grid md:grid-cols-2 grid-cols-1 items-center gap-6 justify-between">
             <div>
               <div className="mb-12">
-                <h2 className="text-[50px] leading-[76px] font-bold">
+                <h2 className="md:text-[50px] text-[35px] md:leading-[76px] leading-[45px] font-bold">
                   Infographic and graphic design
                 </h2>
                 <p className="sectionDescription22-30">
@@ -210,9 +210,9 @@ export default function AmazonSeller() {
         </div>
       </div>
 
-      <div className="bg-[url('/assets/images/service/dot-bg.png')] bg-cover py-[90px]">
+      <div className="bg-[url('/assets/images/service/dot-bg.png')] bg-cover md:py-[90px] py-[50px] md:px-0 px-5">
         <div className="max-w-[1307px] m-auto">
-          <div className="grid grid-cols-2 items-center gap-10 justify-between">
+          <div className="grid md:grid-cols-2 grid-cols-1 items-center gap-10 justify-between">
             <div
               className="relative"
               data-aos="slide-right"
@@ -222,7 +222,7 @@ export default function AmazonSeller() {
             </div>
             <div>
               <div className="mb-12">
-                <h2 className="text-[50px] leading-[76px] font-bold mb-2">
+                <h2 className="md:text-[50px] text-[25px] md:leading-[76px] leading-[45px] font-bold mb-2">
                   Product photography
                 </h2>
                 <p className="sectionDescription22-30">
@@ -243,12 +243,12 @@ export default function AmazonSeller() {
         </div>
       </div>
 
-      <div className="bg-[#FAFAFA] bg-[url('/assets/images/service/dot-bg.png')] bg-cover py-[90px]">
+      <div className="bg-[#FAFAFA] bg-[url('/assets/images/service/dot-bg.png')] bg-cover md:py-[90px] py-[50px] md:px-0 px-5">
         <div className="max-w-[1307px] m-auto">
-          <div className="grid grid-cols-2 items-center gap-6 justify-between">
+          <div className="grid md:grid-cols-2 grid-cols-1 items-center gap-6 justify-between">
             <div>
               <div className="mb-12">
-                <h2 className="text-[50px] leading-[76px] font-bold">
+                <h2 className="md:text-[50px] text-[35px] md:leading-[76px] leading-[45px] font-bold">
                   Product videography
                 </h2>
                 <p className="sectionDescription22-30">
@@ -276,9 +276,9 @@ export default function AmazonSeller() {
         </div>
       </div>
 
-      <div className="bg-[url('/assets/images/service/dot-bg.png')] bg-cover py-[90px]">
+      <div className="bg-[url('/assets/images/service/dot-bg.png')] bg-cover md:py-[90px] py-[50px] md:px-0 px-5">
         <div className="max-w-[1307px] m-auto">
-          <div className="grid grid-cols-2 items-center gap-10 justify-between">
+          <div className="grid md:grid-cols-2 grid-cols-1 items-center gap-10 justify-between">
             <div
               className="relative"
               data-aos="slide-right"
@@ -288,7 +288,7 @@ export default function AmazonSeller() {
             </div>
             <div>
               <div className="mb-12">
-                <h2 className="text-[50px] leading-[76px] font-bold mb-2">
+                <h2 className="md:text-[50px] text-[35px] md:leading-[76px] leading-[45px] font-bold mb-2">
                   PPC and campaign setup
                 </h2>
                 <p className="sectionDescription22-30">
@@ -309,12 +309,12 @@ export default function AmazonSeller() {
         </div>
       </div>
 
-      <div className="bg-[#FAFAFA] bg-[url('/assets/images/service/dot-bg.png')] bg-cover py-[90px]">
+      <div className="bg-[#FAFAFA] bg-[url('/assets/images/service/dot-bg.png')] bg-cover md:py-[90px] py-[50px] md:px-0 px-5">
         <div className="max-w-[1307px] m-auto">
-          <div className="grid grid-cols-2 items-center gap-6 justify-between">
+          <div className="grid md:grid-cols-2 grid-cols-1 items-center gap-6 justify-between">
             <div>
               <div className="mb-12">
-                <h2 className="text-[50px] leading-[76px] font-bold">
+                <h2 className="md:text-[50px] text-[35px] md:leading-[76px] leading-[45px] font-bold">
                   Brand registry set up
                 </h2>
                 <p className="sectionDescription22-30">

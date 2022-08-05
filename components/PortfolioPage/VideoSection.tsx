@@ -1,4 +1,4 @@
-import React from 'react'
+import React from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation, Pagination, Scrollbar, A11y, Mousewheel } from "swiper";
 import "swiper/css";
@@ -10,7 +10,7 @@ export default function VideoSection() {
   return (
     <>
       <div>
-        <div className="max-w-[1307px] m-auto py-[90px] relative">
+        <div className="max-w-[1307px] m-auto md:py-[90px] py-[50px] relative md:px-0 px-5">
           <div>
             <h2 className="sectionTitle">Product videography </h2>
             <p className="sectionDescription22-30 my-3">
@@ -77,7 +77,7 @@ export default function VideoSection() {
                         <h3 className="text-[35px] leading-[35px] font-bold  mt-10">
                           Product Description
                         </h3>
-                        <p className="text-[20px] leading-[30px] text-[#303030] mt-4">
+                        <p className="text-[20px] leading-[30px] !text-[#303030] mt-4">
                           Amazon Essentials is focused on creating affordable,
                           high-quality, and long-lasting everyday clothing you
                           can rely on. Our line of womens apparel includes
@@ -113,7 +113,7 @@ export default function VideoSection() {
                         <h3 className="text-[35px] leading-[35px] font-bold  mt-10">
                           Product Description
                         </h3>
-                        <p className="text-[20px] leading-[30px] text-[#303030] mt-4">
+                        <p className="text-[20px] leading-[30px] !text-[#303030] mt-4">
                           Amazon Essentials is focused on creating affordable,
                           high-quality, and long-lasting everyday clothing you
                           can rely on. Our line of womens apparel includes
@@ -149,7 +149,7 @@ export default function VideoSection() {
                         <h3 className="text-[35px] leading-[35px] font-bold  mt-10">
                           Product Description
                         </h3>
-                        <p className="text-[20px] leading-[30px] text-[#303030] mt-4">
+                        <p className="text-[20px] leading-[30px] !text-[#303030] mt-4">
                           Amazon Essentials is focused on creating affordable,
                           high-quality, and long-lasting everyday clothing you
                           can rely on. Our line of womens apparel includes

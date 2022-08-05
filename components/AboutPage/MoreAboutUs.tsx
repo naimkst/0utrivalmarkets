@@ -5,8 +5,8 @@ import HayTheres from "../../public/assets/images/about/moreabout.png";
 export default function MoreAboutUs() {
   return (
     <>
-      <div className="py-[90px]">
-        <div className="container max-w-[1307px] m-auto grid grid-cols-2 items-center gap-6 justify-between">
+      <div className="md:py-[90px] py-[50px] md:px-0 px-5">
+        <div className="container max-w-[1307px] m-auto grid md:grid-cols-2 grid-cols-1 items-center gap-6 justify-between">
           <div>
             <h2 className="sectionTitle mb-5">Hay There</h2>
             <p className="sectionDescription mb-3">

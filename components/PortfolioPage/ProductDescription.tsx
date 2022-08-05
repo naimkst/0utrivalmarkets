@@ -7,7 +7,7 @@ import PrdImage from "../../public/assets/images/prd-details.png";
 export default function ProductDescription() {
   return (
     <>
-      <Tabs className="grid grid-cols-4 gap-8">
+      <Tabs className="grid md:grid-cols-4 grid-cols-1 md:gap-8 gap-0">
         <TabList>
           <Tab className="text-[18px] bg-[#F4F4F4] hover:cursor-pointer">
             Details of Project
@@ -44,7 +44,7 @@ export default function ProductDescription() {
         <div className="col-span-3">
           <TabPanel>
             <div className="">
-              <p className="text-[22px] leading-[36px]">
+              <p className="text-[22px] leading-[36px] !text-[#090D48]">
                 Aenean venenatis elementum erat vel iaculis. Aliquam porttitor
                 lacinia est, sed vulputate sapien tempor id. Vestibulum ante
                 ipsum pri faucibus orci luctus et ultrices posuere cubilia
@@ -66,127 +66,125 @@ export default function ProductDescription() {
             </div>
           </TabPanel>
           <TabPanel>
-          <p className="text-[22px] leading-[36px]">
-                Aenean venenatis elementum erat vel iaculis. Aliquam porttitor
-                lacinia est, sed vulputate sapis et ultrices posuere cubilia
-                curae; Fusce quis laoreet mauris. Quisque nisl risus, rhoncus eu
-                efficitur consectetu vulput Pellentesque posuere ullamcorper
-                quam quis scelerisque. Aenean vel dignissim nunc. Aliquam
-                fringilla malesuada ipsum. Integer ut eleifend dui, id rhoncus
-                metus. Ut eu tempus libero. Donec vitae quam convallis, sodales
-                leo ultricies, vestibulum ante. Nunc sit amet nibh ligula. In eu
-                sollicitudin orci.
-              </p>
+            <p className="text-[22px] leading-[36px] !text-[#090D48]">
+              Aenean venenatis elementum erat vel iaculis. Aliquam porttitor
+              lacinia est, sed vulputate sapis et ultrices posuere cubilia
+              curae; Fusce quis laoreet mauris. Quisque nisl risus, rhoncus eu
+              efficitur consectetu vulput Pellentesque posuere ullamcorper quam
+              quis scelerisque. Aenean vel dignissim nunc. Aliquam fringilla
+              malesuada ipsum. Integer ut eleifend dui, id rhoncus metus. Ut eu
+              tempus libero. Donec vitae quam convallis, sodales leo ultricies,
+              vestibulum ante. Nunc sit amet nibh ligula. In eu sollicitudin
+              orci.
+            </p>
           </TabPanel>
 
           <TabPanel>
-            <p className="text-[22px] leading-[36px]">
-                Aenean venenatis elementum erat vel iaculis. Aliquam porttitor
-                lacinia est, sed vulputate sapien tempor id. Vestibulum ante
-                ipsum pri faucibus orci luces posuere cubilia
-                curae; Fusce quis laoreet mauris. Quisque nisl risus, rhoncus eu
-                efficitur consectetu vulput Pellentesque posuere ullamcorper
-                quam quis scelerisque. Aenean vel dignissim nunc. Aliquam
-                fringilla malesuada ipsum. Integer ut eleifend dui, id rhoncus
-                metus. Ut eu tempus libero. Donec vitae quam convallis, sodales
-                leo ultricies, vestibulum ante. Nunc sit amet nibh ligula. In eu
-                sollicitudin orci.
-              </p>
+            <p className="text-[22px] leading-[36px] !text-[#090D48]">
+              Aenean venenatis elementum erat vel iaculis. Aliquam porttitor
+              lacinia est, sed vulputate sapien tempor id. Vestibulum ante ipsum
+              pri faucibus orci luces posuere cubilia curae; Fusce quis laoreet
+              mauris. Quisque nisl risus, rhoncus eu efficitur consectetu vulput
+              Pellentesque posuere ullamcorper quam quis scelerisque. Aenean vel
+              dignissim nunc. Aliquam fringilla malesuada ipsum. Integer ut
+              eleifend dui, id rhoncus metus. Ut eu tempus libero. Donec vitae
+              quam convallis, sodales leo ultricies, vestibulum ante. Nunc sit
+              amet nibh ligula. In eu sollicitudin orci.
+            </p>
           </TabPanel>
 
           <TabPanel>
-            <p className="text-[22px] leading-[36px]">
-                Aenean venenatis elementum erat vel iaculis. Aliquam porttitor
-                lacinia est, sed vulputate sapien teestibulum ante
-                ipsum pri faucibus orci luctus et ultrices posuere cubilia
-                curae; Fusce quis laoreet mauris. Quisque nisl risus, rhoncus eu
-                efficitur consectetu vulput Pellentesque posuere ullamcorper
-                quam quis scelerisque. Aenean vel dignissim nunc. Aliquam
-                fringilla malesuada ipsum. Integer ut eleifend dui, id rhoncus
-                metus. Ut eu tempus libero. Donec vitae quam convallis, sodales
-                leo ultricies, vestibulum ante. Nunc sit amet nibh ligula. In eu
-                sollicitudin orci.
-              </p>
+            <p className="text-[22px] leading-[36px] !text-[#090D48]">
+              Aenean venenatis elementum erat vel iaculis. Aliquam porttitor
+              lacinia est, sed vulputate sapien teestibulum ante ipsum pri
+              faucibus orci luctus et ultrices posuere cubilia curae; Fusce quis
+              laoreet mauris. Quisque nisl risus, rhoncus eu efficitur
+              consectetu vulput Pellentesque posuere ullamcorper quam quis
+              scelerisque. Aenean vel dignissim nunc. Aliquam fringilla
+              malesuada ipsum. Integer ut eleifend dui, id rhoncus metus. Ut eu
+              tempus libero. Donec vitae quam convallis, sodales leo ultricies,
+              vestibulum ante. Nunc sit amet nibh ligula. In eu sollicitudin
+              orci.
+            </p>
           </TabPanel>
 
           <TabPanel>
-            <p className="text-[22px] leading-[36px]">
-                Aenean venenatis elementum erat vel iaculis. Aliquam porttitor
-                lacinia est, sed vulputate sapien tempor id. Vestibulum ante
-                ipsum pri faucibus orci luctus et ultrices posuere cubilia
-                curae; Fusce quis laoreet mauris. Quisque nisl risus, rhoncus eu
-                efficitur consectetu vulput rper
-                quam quis scelerisque. Aenean vel dignissim nunc. Aliquam
-                fringilla malesuada ipsum. Integer ut eleifend dui, id rhoncus
-                metus. Ut eu tempus libero. Donec vitae quam convallis, sodales
-                leo ultricies, vestibulum ante. Nunc sit amet nibh ligula. In eu
-                sollicitudin orci.
-              </p>
+            <p className="text-[22px] leading-[36px] !text-[#090D48]">
+              Aenean venenatis elementum erat vel iaculis. Aliquam porttitor
+              lacinia est, sed vulputate sapien tempor id. Vestibulum ante ipsum
+              pri faucibus orci luctus et ultrices posuere cubilia curae; Fusce
+              quis laoreet mauris. Quisque nisl risus, rhoncus eu efficitur
+              consectetu vulput rper quam quis scelerisque. Aenean vel dignissim
+              nunc. Aliquam fringilla malesuada ipsum. Integer ut eleifend dui,
+              id rhoncus metus. Ut eu tempus libero. Donec vitae quam convallis,
+              sodales leo ultricies, vestibulum ante. Nunc sit amet nibh ligula.
+              In eu sollicitudin orci.
+            </p>
           </TabPanel>
 
           <TabPanel>
-            <p className="text-[22px] leading-[36px]">
-                Aenean venenatis elementum erat vel iaculis. Aliquam porttitor
-                lacinia est, sed vulputate sapien tempor id. Vestibulum ante
-                ipsum pri faucibus orci luctus et ultrices posuere cubilia
-                curae; Fusce quis laoreet mauris. Quisque nisl risus, rhoncus eu
-                efficitur consectetu vulput Pellentesque posuere ullamcorper
-                quam quis scelerisque. Aenean vel dignissi convallis, sodales
-                leo ultricies, vestibulum ante. Nunc sit amet nibh ligula. In eu
-                sollicitudin orci.
-              </p>
+            <p className="text-[22px] leading-[36px] !text-[#090D48]">
+              Aenean venenatis elementum erat vel iaculis. Aliquam porttitor
+              lacinia est, sed vulputate sapien tempor id. Vestibulum ante ipsum
+              pri faucibus orci luctus et ultrices posuere cubilia curae; Fusce
+              quis laoreet mauris. Quisque nisl risus, rhoncus eu efficitur
+              consectetu vulput Pellentesque posuere ullamcorper quam quis
+              scelerisque. Aenean vel dignissi convallis, sodales leo ultricies,
+              vestibulum ante. Nunc sit amet nibh ligula. In eu sollicitudin
+              orci.
+            </p>
           </TabPanel>
 
           <TabPanel>
-            <p className="text-[22px] leading-[36px]">
-                Aenean venenatis elementum erat vel iaculis. Aliquam porttitor
-                lacinia est, sed vulputate sapien tempor id. Vestibulum ante
-                ipsum pri faucibus orci luctus et ultrices posuere cubilia
-                curae; Fusce quis laoreet mauris. Quisque nisl risus, rhoncus eu
-                efficitur consectetu vulput Pellentesque posuere ullamcorper
-                quam quis scelerisque. Aenean vel dignissi convallis, sodales
-                leo ultricies, vestibulum ante. Nunc sit amet nibh ligula. In eu
-                sollicitudin orci.
-              </p>
+            <p className="text-[22px] leading-[36px] !text-[#090D48]">
+              Aenean venenatis elementum erat vel iaculis. Aliquam porttitor
+              lacinia est, sed vulputate sapien tempor id. Vestibulum ante ipsum
+              pri faucibus orci luctus et ultrices posuere cubilia curae; Fusce
+              quis laoreet mauris. Quisque nisl risus, rhoncus eu efficitur
+              consectetu vulput Pellentesque posuere ullamcorper quam quis
+              scelerisque. Aenean vel dignissi convallis, sodales leo ultricies,
+              vestibulum ante. Nunc sit amet nibh ligula. In eu sollicitudin
+              orci.
+            </p>
           </TabPanel>
 
           <TabPanel>
-            <p className="text-[22px] leading-[36px]">
-                Aenean venenatis elementum erat vel iaculis. Aliquam porttitor
-                lacinia est, sed vulputate sapien tempor id. Vestibulum ante
-                ipsum pri faucibus orci luctus et ultrices posuere cubilia
-                curae; Fusce quis laoreet mauris. Quisque nisl risus, rhoncus eu
-                efficitur consectetu vulput Pellentesque posuere ullamcorper
-                quam quis scelerisque. Aenean vel dignissi convallis, sodales
-                leo ultricies, vestibulum ante. Nunc sit amet nibh ligula. In eu
-                sollicitudin orci.
-              </p>
+            <p className="text-[22px] leading-[36px] !text-[#090D48]">
+              Aenean venenatis elementum erat vel iaculis. Aliquam porttitor
+              lacinia est, sed vulputate sapien tempor id. Vestibulum ante ipsum
+              pri faucibus orci luctus et ultrices posuere cubilia curae; Fusce
+              quis laoreet mauris. Quisque nisl risus, rhoncus eu efficitur
+              consectetu vulput Pellentesque posuere ullamcorper quam quis
+              scelerisque. Aenean vel dignissi convallis, sodales leo ultricies,
+              vestibulum ante. Nunc sit amet nibh ligula. In eu sollicitudin
+              orci.
+            </p>
           </TabPanel>
 
           <TabPanel>
-            <p className="text-[22px] leading-[36px]">
-                Aenean venenatis elementum erat vel iaculis. Aliquam porttitor
-                lacinia est, sed vulputate sapien tempor id. Vestibulum ante
-                ipsum pri faucibus orci luctus et ultrices posuere cubilia
-                curae; Fusce quis laoreet mauris. Quisque nisl risus, rhoncus eu
-                efficitur consectetu vulput Pellentesque posuere ullamcorper
-                quam quis scelerisque. Aenean vel dignissi convallis, sodales
-                leo ultricies, vestibulum ante. Nunc sit amet nibh ligula. In eu
-                sollicitudin orci.
-              </p>
+            <p className="text-[22px] leading-[36px] !text-[#090D48]">
+              Aenean venenatis elementum erat vel iaculis. Aliquam porttitor
+              lacinia est, sed vulputate sapien tempor id. Vestibulum ante ipsum
+              pri faucibus orci luctus et ultrices posuere cubilia curae; Fusce
+              quis laoreet mauris. Quisque nisl risus, rhoncus eu efficitur
+              consectetu vulput Pellentesque posuere ullamcorper quam quis
+              scelerisque. Aenean vel dignissi convallis, sodales leo ultricies,
+              vestibulum ante. Nunc sit amet nibh ligula. In eu sollicitudin
+              orci.
+            </p>
           </TabPanel>
 
           <TabPanel>
-            <p className="text-[22px] leading-[36px]">
-                Aenean venenatis elementum erat vel iaculis. Aliquam porttitor
-                lacinia est, sed vulputate sapien tempor id. Vestibulum ante
-                ipsum pri faucibus orci luctus et ultrices posuere cubilia
-                curae; Fusce quis laoreet mauris. Quisque nisl risus, rhoncus eu
-                efficitur consectetu vulput Pellentesque posuere ullamcorper
-                quam quis scelerisque. Aenean vel dignissi convallis, sodales
-                leo ultricies, vestibulum ante. Nunc sit amet nibh ligula. In eu
-                sollicitudin orci.
-              </p>
+            <p className="text-[22px] leading-[36px] !text-[#090D48]">
+              Aenean venenatis elementum erat vel iaculis. Aliquam porttitor
+              lacinia est, sed vulputate sapien tempor id. Vestibulum ante ipsum
+              pri faucibus orci luctus et ultrices posuere cubilia curae; Fusce
+              quis laoreet mauris. Quisque nisl risus, rhoncus eu efficitur
+              consectetu vulput Pellentesque posuere ullamcorper quam quis
+              scelerisque. Aenean vel dignissi convallis, sodales leo ultricies,
+              vestibulum ante. Nunc sit amet nibh ligula. In eu sollicitudin
+              orci.
+            </p>
           </TabPanel>
         </div>
       </Tabs>

@@ -102,42 +102,52 @@ export default function Header() {
         <div className="relative">
           <div className="md:hidden bg-[#090D48] z-50 absolute w-full p-7">
             <ul className="w-full">
-              <li>
-                <a
-                  className="text-[24px] leading-[40px] text-white font-semibold"
-                  href=""
-                >
-                  Service
-                </a>
-              </li>
-              <li>
-                <a
-                  className="text-[24px] leading-[40px] text-white font-semibold"
-                  href=""
-                >
-                  Portfolio
-                </a>
-              </li>
-              <li>
-                <a
-                  className="text-[24px] leading-[40px] text-white font-semibold"
-                  href=""
-                >
-                  About
-                </a>
-              </li>
-              <li>
-                <a
-                  className="text-[24px] leading-[40px] text-white font-semibold"
-                  href=""
-                >
-                  Blog
-                </a>
-              </li>
+              <Link href="/service">
+                <li>
+                  <a
+                    className="text-[24px] leading-[40px] text-white font-semibold"
+                    href=""
+                  >
+                    Service
+                  </a>
+                </li>
+              </Link>
+              <Link href="/portfolio">
+                <li>
+                  <a
+                    className="text-[24px] leading-[40px] text-white font-semibold"
+                    href=""
+                  >
+                    Portfolio
+                  </a>
+                </li>
+              </Link>
+              <Link href="/about">
+                <li>
+                  <a
+                    className="text-[24px] leading-[40px] text-white font-semibold"
+                    href=""
+                  >
+                    About
+                  </a>
+                </li>
+              </Link>
+              <Link href="/blog">
+                <li>
+                  <a
+                    className="text-[24px] leading-[40px] text-white font-semibold"
+                    href=""
+                  >
+                    Blog
+                  </a>
+                </li>
+              </Link>
 
-              <button className="buttonBg text-white py-[10px] px-[30px] rounded-[7px] text-[16px] mt-5 font-bold">
-                Contact Us
-              </button>
+              <Link href="/contact-us">
+                <button className="buttonBg text-white py-[10px] px-[30px] rounded-[7px] text-[16px] mt-5 font-bold">
+                  Contact Us
+                </button>
+              </Link>
             </ul>
           </div>
         </div>

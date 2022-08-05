@@ -11,7 +11,7 @@ export default function EcommerceWebsite() {
   return (
     <>
       <div>
-        <div className="max-w-[1307px] m-auto pt-[60px] relative">
+        <div className="max-w-[1307px] m-auto pt-[60px] relative md:px-0 px-5">
           <div>
             <h2 className="sectionTitle">Product videography </h2>
             <p className="sectionDescription22-30 my-3">
@@ -60,18 +60,18 @@ export default function EcommerceWebsite() {
                 <SwiperSlide className="py-[40px] md:py-[90px] overflow-x-hidden overflow-y-hidden">
                   <div className="">
                     <div>
-                      <div className="w-[80%]  m-auto">
-                        <h2 className="text-[35px] text-[#090D48] font-bold mb-5">
+                      <div className="md:w-[80%] w-full m-auto">
+                        <h2 className="text-[35px] leading-[45px] text-[#090D48] font-bold mb-5">
                           My Secret for Dark & Moody Product Videos
                         </h2>
-                        <div className="h-[600px] overflow-scroll">
+                        <div className="md:h-[600px] h-auto md:overflow-scroll">
                           <Image src={PrdImage} layout="intrinsic" />
                         </div>
 
                         <h3 className="text-[35px] leading-[35px] font-bold  mt-16">
                           Website Description
                         </h3>
-                        <p className="text-[20px] leading-[30px] text-[#303030] mt-4">
+                        <p className="text-[20px] leading-[30px] !text-[#303030] mt-4">
                           Amazon Essentials is focused on creating affordable,
                           high-quality, and long-lasting everyday clothing you
                           can rely on. Our line of womens apparel includes
@@ -180,22 +180,21 @@ export default function EcommerceWebsite() {
                     </div>
                   </div>
                 </SwiperSlide>
-
                 <SwiperSlide className="py-[40px] md:py-[90px] overflow-x-hidden overflow-y-hidden">
                   <div className="">
                     <div>
-                      <div className="w-[80%]  m-auto">
-                        <h2 className="text-[35px] text-[#090D48] font-bold mb-5">
+                      <div className="md:w-[80%] w-full m-auto">
+                        <h2 className="text-[35px] leading-[45px] text-[#090D48] font-bold mb-5">
                           My Secret for Dark & Moody Product Videos
                         </h2>
-                        <div className="h-[600px] overflow-scroll">
+                        <div className="md:h-[600px] h-auto md:overflow-scroll">
                           <Image src={PrdImage} layout="intrinsic" />
                         </div>
 
                         <h3 className="text-[35px] leading-[35px] font-bold  mt-16">
                           Website Description
                         </h3>
-                        <p className="text-[20px] leading-[30px] text-[#303030] mt-4">
+                        <p className="text-[20px] leading-[30px] !text-[#303030] mt-4">
                           Amazon Essentials is focused on creating affordable,
                           high-quality, and long-lasting everyday clothing you
                           can rely on. Our line of womens apparel includes
@@ -304,22 +303,21 @@ export default function EcommerceWebsite() {
                     </div>
                   </div>
                 </SwiperSlide>
-
                 <SwiperSlide className="py-[40px] md:py-[90px] overflow-x-hidden overflow-y-hidden">
                   <div className="">
                     <div>
-                      <div className="w-[80%]  m-auto">
-                        <h2 className="text-[35px] text-[#090D48] font-bold mb-5">
+                      <div className="md:w-[80%] w-full m-auto">
+                        <h2 className="text-[35px] leading-[45px] text-[#090D48] font-bold mb-5">
                           My Secret for Dark & Moody Product Videos
                         </h2>
-                        <div className="h-[600px] overflow-scroll">
+                        <div className="md:h-[600px] h-auto md:overflow-scroll">
                           <Image src={PrdImage} layout="intrinsic" />
                         </div>
 
                         <h3 className="text-[35px] leading-[35px] font-bold  mt-16">
                           Website Description
                         </h3>
-                        <p className="text-[20px] leading-[30px] text-[#303030] mt-4">
+                        <p className="text-[20px] leading-[30px] !text-[#303030] mt-4">
                           Amazon Essentials is focused on creating affordable,
                           high-quality, and long-lasting everyday clothing you
                           can rely on. Our line of womens apparel includes

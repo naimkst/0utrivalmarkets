@@ -8,7 +8,7 @@ export default function ContactDetails() {
     <>
       <div className="py-[90px]">
         <div className="max-w-[1307px] m-auto">
-          <div className="grid grid-cols-3 gap-4 items-center content-center justify-between">
+          <div className="grid md:grid-cols-3 grid-cols-1 gap-4 items-center content-center justify-between">
             <div className="text-center">
               <div>
                 <p className="flex items-center justify-center text-[20px] font-bold text-center">
