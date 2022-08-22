@@ -1,28 +1,49 @@
 import Image from "next/image";
-import React from "react";
+import React, { useState } from "react";
 import Testimonial from "../../public/assets/images/testimonial.png";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation } from "swiper";
 import "swiper/css";
+import { useQuery } from "@tanstack/react-query";
+import request from "../lib/request";
+import Loading from "../Loading";
 // import "swiper/css/navigation";
 
 export default function TestimonialSection() {
+  const [data, setData] = useState<any>();
+  const [testimonail, setTestimonial] = useState<any>();
+
   const pagination = {
     clickable: true,
     renderBullet: function (index: any, className: any) {
       return '<span class="' + className + '">' + (index + 1) + "</span>";
     },
   };
+
+  const { isLoading, isFetching }: any = useQuery(
+    ["resTestimonialSection"],
+    async () => {
+      const { data } = await request.get(`/home/testimonail-section/1`);
+      setData(data);
+      return data;
+    }
+  );
+
+  const {}: any = useQuery(["resTestimonialGrid"], async () => {
+    const { data } = await request.get(`/home/testimonails`);
+    setTestimonial(data);
+    return data;
+  });
+  if (isLoading || isFetching) return <Loading />;
   return (
     <>
       <div className="pb-[50px] md:py-[90px] px-5 md:px-0">
         <div className="container max-w-[1307px] m-auto">
           <div>
-            <p className="slugTitle">Testimonial:</p>
-            <h2 className="sectionTitle">What our clients say about us…</h2>
+            <p className="slugTitle">{data?.testimonialSlug}</p>
+            <h2 className="sectionTitle">{data?.testimonialTitle}</h2>
             <p className="sectionDescription mt-4">
-              There are many variations of passages of Lorem Ipsum <br />{" "}
-              available, but the majority.
+              {data?.testimonialShortDesc}
             </p>
           </div>
 
@@ -58,92 +79,33 @@ export default function TestimonialSection() {
               spaceBetween={50}
               slidesPerView={3}
             >
-              <SwiperSlide className="py-[40px] md:py-[90px]">
-                <div className="bg-[#FAFAFA] rounded-[10px] px-8 py-10 content-center text-center testimonialHover group hover:cursor-pointer ">
-                  <Image
-                    src={Testimonial}
-                    width={80}
-                    height={80}
-                    className="rounded-[7px] object-cover"
-                  />
-                  <p className="leading-[25px] text-[18px] text-[#303030] font-[500] my-5">
-                    Integer ac venenatis leo. Pellenutesque tincidunt lacus
-                    sagittis ut magna tincidunt, at luctus est aliquam. Integer
-                    ac venenatis leo.{" "}
-                  </p>
-                  <p className="text-[#303030] font-semibold text-[18px] leading-[31px]">
-                    Alexander Brown
-                  </p>
-                  <p className="text-[#303030] font-semibold text-[16px] leading-[31px]">
-                    CEO Of Angle
-                  </p>
-                </div>
-              </SwiperSlide>
+              {testimonail?.map((data: any, index: any) => (
+                <SwiperSlide key={index} className="py-[40px] md:py-[90px]">
+                  <div className="bg-[#FAFAFA] rounded-[10px] px-8 py-10 content-center text-center testimonialHover group hover:cursor-pointer ">
+                    <div className="imageFull"></div>
+                    <Image
+                      loader={() =>
+                        `${process.env.NEXT_PUBLIC_IMAGE_URL}/${data?.image}`
+                      }
+                      src={`${process.env.NEXT_PUBLIC_IMAGE_URL}/${data?.image}`}
+                      layout="intrinsic"
+                      width={80}
+                      height={80}
+                      className="rounded-[7px] object-cover"
+                    />
 
-              <SwiperSlide className="py-[40px] md:py-[90px]">
-                <div className="bg-[#FAFAFA] rounded-[10px] px-8 py-10 content-center text-center testimonialHover group hover:cursor-pointer ">
-                  <Image
-                    src={Testimonial}
-                    width={80}
-                    height={80}
-                    className="rounded-[7px] object-cover"
-                  />
-                  <p className="leading-[25px] text-[18px] text-[#303030] font-[500] my-5">
-                    Integer ac venenatis leo. Pellenutesque tincidunt lacus
-                    sagittis ut magna tincidunt, at luctus est aliquam. Integer
-                    ac venenatis leo.{" "}
-                  </p>
-                  <p className="text-[#303030] font-semibold text-[18px] leading-[31px]">
-                    Alexander Brown
-                  </p>
-                  <p className="text-[#303030] font-semibold text-[16px] leading-[31px]">
-                    CEO Of Angle
-                  </p>
-                </div>
-              </SwiperSlide>
-
-              <SwiperSlide className="py-[40px] md:py-[90px]">
-                <div className="bg-[#FAFAFA] rounded-[10px] px-8 py-10 content-center text-center testimonialHover group hover:cursor-pointer ">
-                  <Image
-                    src={Testimonial}
-                    width={80}
-                    height={80}
-                    className="rounded-[7px] object-cover"
-                  />
-                  <p className="leading-[25px] text-[18px] text-[#303030] font-[500] my-5">
-                    Integer ac venenatis leo. Pellenutesque tincidunt lacus
-                    sagittis ut magna tincidunt, at luctus est aliquam. Integer
-                    ac venenatis leo.{" "}
-                  </p>
-                  <p className="text-[#303030] font-semibold text-[18px] leading-[31px]">
-                    Alexander Brown
-                  </p>
-                  <p className="text-[#303030] font-semibold text-[16px] leading-[31px]">
-                    CEO Of Angle
-                  </p>
-                </div>
-              </SwiperSlide>
-              <SwiperSlide className="py-[40px] md:py-[90px]">
-                <div className="bg-[#FAFAFA] rounded-[10px] px-8 py-10 content-center text-center testimonialHover group hover:cursor-pointer ">
-                  <Image
-                    src={Testimonial}
-                    width={80}
-                    height={80}
-                    className="rounded-[7px] object-cover"
-                  />
-                  <p className="leading-[25px] text-[18px] text-[#303030] font-[500] my-5">
-                    Integer ac venenatis leo. Pellenutesque tincidunt lacus
-                    sagittis ut magna tincidunt, at luctus est aliquam. Integer
-                    ac venenatis leo.{" "}
-                  </p>
-                  <p className="text-[#303030] font-semibold text-[18px] leading-[31px]">
-                    Alexander Brown
-                  </p>
-                  <p className="text-[#303030] font-semibold text-[16px] leading-[31px]">
-                    CEO Of Angle
-                  </p>
-                </div>
-              </SwiperSlide>
+                    <p className="leading-[25px] text-[18px] text-[#303030] font-[500] my-5">
+                      {data?.testimonialDescription}
+                    </p>
+                    <p className="text-[#303030] font-semibold text-[18px] leading-[31px]">
+                      {data?.testimonialName}
+                    </p>
+                    <p className="text-[#303030] font-semibold text-[16px] leading-[31px]">
+                      {data?.testimonialDesignation}
+                    </p>
+                  </div>
+                </SwiperSlide>
+              ))}
             </Swiper>
           </div>
         </div>
