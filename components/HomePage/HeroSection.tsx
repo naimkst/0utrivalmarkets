@@ -10,22 +10,15 @@ import axios from "axios";
 import Loading from "../Loading";
 import request from "../lib/request";
 
-export default function HeroSection({}: any) {
+export default function HeroSection({ heroData }: any) {
   const [data, setData] = useState<any>();
 
-  const { isLoading, isFetching }: any = useQuery(
-    ["resTestimonail"],
-    async () => {
-      const { data } = await request.get(`/home/hero-section/1`);
-      setData(data);
-      return data;
-    }
-  );
   React.useEffect(() => {
     AOS.init({ duration: 2000 });
+    setData(heroData[0]);
   }, []);
 
-  if (isLoading || isFetching) return <Loading />;
+  // if (isLoading || isFetching) return <Loading />;
   return (
     <>
       <div className="heroSectionBg pt-[160px] -mt-[146px] px-4 md:px-0">

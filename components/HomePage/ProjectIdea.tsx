@@ -1,11 +1,15 @@
 import Image from "next/image";
-import React from "react";
+import React, { useEffect, useState } from "react";
 import projectIdea from "../../public/assets/images/project-idea.png";
 import projectDot from "../../public/assets/images/project-dot.png";
-import secrionTop from "../../public/assets/images/section-shape.png";
 import Link from "next/link";
 
-export default function ProjectIdea() {
+export default function ProjectIdea({ projectData }: any) {
+  const [data, setData] = useState<any>([]);
+
+  useEffect(() => {
+    setData(projectData[0]);
+  }, []);
   return (
     <>
       <div className="bg-[#fafafa] relative py-[60px] md:px-0 px-5">
@@ -16,16 +20,15 @@ export default function ProjectIdea() {
           <div className="grid md:grid-cols-2 grid-cols-1 items-center justify-center">
             <div className="relative">
               <h2 className="text-[42px] leading-[56px] font-[600] text-[#090D48] mb-2">
-                Have an idea of a project?
+                {data?.projectTitle}
               </h2>
               <p className="text-[22px] text-[#303030] leading-[27px] my-7">
-                Feel free to drop us a question here.. kindly add some details
-                so that we get the best understanding of what your goal may be.
+                {data?.projectDescription}
               </p>
               <div className="relative z-10 md:mb-0 mb-10">
-                <Link href="/">
+                <Link href={data?.projectUrLink || "/"}>
                   <button className="buttonBg font-bold text-[24px] text-white py-[25px] px-[45px] rounded-[7px] mt-8">
-                    Lets get in touch
+                    {data?.projectUrlText}
                   </button>
                 </Link>
               </div>
@@ -33,8 +36,19 @@ export default function ProjectIdea() {
                 <Image src={projectDot} />
               </div>
             </div>
-            <div data-aos="slide-left" data-aos-offset="200">
-              <Image className="imgHover" src={projectIdea} />
+            <div
+              data-aos="slide-left"
+              data-aos-offset="200"
+              className="imageFull"
+            >
+              <Image
+                className="imgHover"
+                loader={() =>
+                  `${process.env.NEXT_PUBLIC_IMAGE_URL}/${data?.image}`
+                }
+                src={`${process.env.NEXT_PUBLIC_IMAGE_URL}/${data?.image}`}
+                layout="fill"
+              />
             </div>
           </div>
           <div></div>

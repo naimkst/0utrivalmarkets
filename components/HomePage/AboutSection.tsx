@@ -1,23 +1,17 @@
 import { useQuery } from "@tanstack/react-query";
 import Image from "next/image";
 import Link from "next/link";
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import About from "../../public/assets/images/about.png";
 import Dot from "../../public/assets/images/Dot.png";
 import request from "../lib/request";
 import Loading from "../Loading";
-export default function AboutSection() {
+export default function AboutSection({ aboutData }: any) {
   const [data, setData] = useState<any>();
 
-  const { isLoading, isFetching }: any = useQuery(
-    ["resPhilosophy"],
-    async () => {
-      const { data } = await request.get(`/home/philosophy-section/1`);
-      setData(data);
-      return data;
-    }
-  );
-  if (isLoading || isFetching) return <Loading />;
+  useEffect(() => {
+    setData(aboutData[0]);
+  }, []);
 
   return (
     <>

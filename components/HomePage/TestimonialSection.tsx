@@ -1,5 +1,5 @@
 import Image from "next/image";
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import Testimonial from "../../public/assets/images/testimonial.png";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation } from "swiper";
@@ -9,9 +9,12 @@ import request from "../lib/request";
 import Loading from "../Loading";
 // import "swiper/css/navigation";
 
-export default function TestimonialSection() {
+export default function TestimonialSection({
+  testimonailSectionData,
+  testimonialData,
+}: any) {
   const [data, setData] = useState<any>();
-  const [testimonail, setTestimonial] = useState<any>();
+  const [testimonail, setTestimonial] = useState<any>([]);
 
   const pagination = {
     clickable: true,
@@ -20,21 +23,10 @@ export default function TestimonialSection() {
     },
   };
 
-  const { isLoading, isFetching }: any = useQuery(
-    ["resTestimonialSection"],
-    async () => {
-      const { data } = await request.get(`/home/testimonail-section/1`);
-      setData(data);
-      return data;
-    }
-  );
-
-  const {}: any = useQuery(["resTestimonialGrid"], async () => {
-    const { data } = await request.get(`/home/testimonails`);
-    setTestimonial(data);
-    return data;
-  });
-  if (isLoading || isFetching) return <Loading />;
+  useEffect(() => {
+    setTestimonial(testimonialData);
+    setData(testimonailSectionData[0]);
+  }, []);
   return (
     <>
       <div className="pb-[50px] md:py-[90px] px-5 md:px-0">
